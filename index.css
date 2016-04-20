@@ -2,3 +2,8 @@
 body {margin:0px;}
 #main {font-size:200%;}
 .hl0 {color:red;}
+.p {background:yellow;border-radius: 50%;color:black;}
+.tag {background:pink;border-radius: 20%;color:black;}
+
+/* .standoff {border-radius: 10px;font-family: DFKai-SB}*/
+.standoff {font-family: DFKai-SB;color:lightblue;}

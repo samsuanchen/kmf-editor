@@ -7,31 +7,99 @@ ksanagap.boot("kmf-editor",function(){
 	var Main=React.createElement(require("./src/main.jsx"));
 	ksana.mainComponent=ReactDOM.render(Main,document.getElementById("main"));
 });
-},{"./src/main.jsx":"C:\\ksana2015\\kmf-editor\\src\\main.jsx","ksana2015-webruntime/ksanagap":"C:\\ksana2015\\node_modules\\ksana2015-webruntime\\ksanagap.js","ksana2015-webruntime/livereload":"C:\\ksana2015\\node_modules\\ksana2015-webruntime\\livereload.js","react":"react","react-dom":"react-dom"}],"C:\\ksana2015\\kmf-editor\\src\\main.jsx":[function(require,module,exports){
+},{"./src/main.jsx":"C:\\ksana2015\\kmf-editor\\src\\main.jsx","ksana2015-webruntime/ksanagap":"C:\\ksana2015\\node_modules\\ksana2015-webruntime\\ksanagap.js","ksana2015-webruntime/livereload":"C:\\ksana2015\\node_modules\\ksana2015-webruntime\\livereload.js","react":"react","react-dom":"react-dom"}],"C:\\ksana2015\\kmf-editor\\src\\controls.js":[function(require,module,exports){
+var React=require("react");
+var E=React.createElement;
+
+var Controls=React.createClass({displayName: "Controls",
+	render:function(){
+		return E("button",{},"abc");
+	}
+});
+module.exports=Controls
+},{"react":"react"}],"C:\\ksana2015\\kmf-editor\\src\\main.jsx":[function(require,module,exports){
 var React=require("react");
 var E=React.createElement;
 var fs=require("./socketfs");
-var CodeMirror=require("ksana-codemirror").Component;
+var kcm=require("ksana-codemirror");
+var CodeMirror=kcm.Component;
 
+var Controls=require("./controls");
+var fn="1n8_o.kmf";
 var maincomponent = React.createClass({displayName: "maincomponent",
   getInitialState:function() {
-    return {value:"君子"};
+    return {text:""};
+  }
+  ,markText:function(tags){
+    for (var i=0;i<tags.length;i++) {
+      var tag=tags[i];
+      //if (tag[2]!=="p" || !tag[3] || !tag[3]["xml:id"]) continue;
+      //if (tag[1]=="lb/")continue;
+
+      
+      if (tag[1]>0) {
+        var start=this.doc.posFromIndex( tag[0]);
+        var end=this.doc.posFromIndex(tag[0]+tag[1]);
+        this.doc.markText(start,end,{className:"standOff",readOnly:true,payload:tag[3]})
+      }  else {
+        var marker = document.createElement('span');
+        marker.className= "tag";
+        marker.innerHTML="<";
+        if (tag[2][0]=="/") marker.innerHTML=">"
+        if (tag[2][tag[2].length-1]=="/") marker.innerHTML="&#8823;"
+        var start=this.doc.posFromIndex( tag[0]);
+        this.doc.setBookmark(start,{widget:marker});
+      }
+
+
+    }
+
   }
   ,componentDidMount:function(){
     this.editor=this.refs.cm.getCodeMirror();
     this.doc=this.editor.doc;
 
     this.editor.focus();
-    fs.readFile("test.kmf","utf8",function(err,data){
+    fs.readFile(fn,"utf8",function(err,data){
+      var content=eval(data);
+      this.setState(content);
+      this.editor.setValue(content.text);
+      this.markText(content.tags);
+    }.bind(this));
+  }
+  ,inSource:function(){
 
-    })
+  }
+  ,onKeyUp:function(cm,evt){
+  }
+  ,breakSource:function(marker,at) { //break marker into two, to allow input
+    var pos=marker.find();
+    var py=marker.payload;
+    var part1len=at.ch-pos.from.ch;
+    console.log(part1len)
+    this.doc.markText(pos.from , at ,{className:"standOff",readOnly:true,payload:{s:py.s,l:part1len}});
+    this.doc.markText(at , pos.to , {className:"standOff",readOnly:true,payload:{s:py.s+part1len,l:py.l-part1len}});
+    marker.clear();
+  }
+  ,onKeyPress:function(cm,evt) {
+    var pos=this.doc.getCursor("from");
+    var markers=this.doc.findMarksAt(pos);
+    if (markers.length==1) {
+      var m=markers[0];
+      if (m.readOnly) this.breakSource(m,pos);
+    }
+
   }
   ,render: function() {
-    return E(CodeMirror,{ref:"cm",value:this.state.value,theme:"ambiance"});
+    return E("div",{"data-i":1},
+        E(Controls,{}),
+        E(CodeMirror,{ref:"cm",value:this.state.text,theme:"ambiance"
+          ,onKeyUp:this.onKeyUp,onKeyPress:this.onKeyPress})
+      );
   }
 });
 module.exports=maincomponent;
-},{"./socketfs":"C:\\ksana2015\\kmf-editor\\src\\socketfs.js","ksana-codemirror":"C:\\ksana2015\\node_modules\\ksana-codemirror\\src\\index.js","react":"react"}],"C:\\ksana2015\\kmf-editor\\src\\node\\readdirmeta.js":[function(require,module,exports){
+},{"./controls":"C:\\ksana2015\\kmf-editor\\src\\controls.js","./socketfs":"C:\\ksana2015\\kmf-editor\\src\\socketfs.js","ksana-codemirror":"C:\\ksana2015\\node_modules\\ksana-codemirror\\src\\index.js","react":"react"}],"C:\\ksana2015\\kmf-editor\\src\\node\\readdirmeta.js":[function(require,module,exports){
 /**
 	read all ktx files and return meta json
 */
@@ -10535,10 +10603,10 @@ var CodeMirrorComponent = React.createClass({
   		,undoDepth: Infinity
   		,lineWrapping:true
   		,readOnly:!!this.props.readOnly
-  		,lineNumbers: true
   		,theme:this.props.theme||""
-  		,gutters: ["CodeMirror-linenumbers"]
-  		,lineSeparator:this.props.lineSeparator||null  		
+  		//,lineNumbers: true
+  		//,gutters: ["CodeMirror-linenumbers"]
+  		//,lineSeparator:this.props.lineSeparator||null  		
   		,extraKeys: {
   			"Ctrl-I": function(cm){
   				cm.showHint({hint: CM.hint.ire});
@@ -10556,6 +10624,9 @@ var CodeMirrorComponent = React.createClass({
 		this.codeMirror.on('blur', this.focusChanged.bind(this, false));
 		this.codeMirror.on('cursorActivity',this.cursorActivity);
 		this.codeMirror.on('mousedown',this.onMouseDown);
+		this.props.onKeyUp && this.codeMirror.on('keyup',this.props.onKeyUp);
+		this.props.onKeyDown && this.codeMirror.on('keydown',this.props.onKeyDown);
+		this.props.onKeyPress&& this.codeMirror.on('keypress',this.props.onKeyPress);
 
 		setTimeout(function(){
 			this.props.markups&&applyMarkups(this.codeMirror,this.props.markups,true);
