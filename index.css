@@ -6,4 +6,9 @@ body {margin:0px;}
 .tag {background:pink;border-radius: 20%;color:black;}
 
 /* .standoff {border-radius: 10px;font-family: DFKai-SB}*/
-.standoff {font-family: DFKai-SB;color:lightblue;}
+.source {font-family: DFKai-SB;color:lightblue;}
+.u {text-decoration: underline}
+.book {background:#ffc;border-radius:10pt;color:black;}
+.bookname {background:#fcc;border-radius:10pt;color:black;}
+.bookcode {background:#cfc;border-radius:10pt;color:black;}
+.verse {background:#ccf;border-radius:10pt;color:black;}

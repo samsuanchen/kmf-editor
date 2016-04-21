@@ -1,13 +1,672 @@
-(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({"C:\\ksana2015\\kmf-editor\\index.js":[function(require,module,exports){
+(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({"/Users/samsuanchen/ksana2015/kmf-editor/bible/test.kmf":[function(require,module,exports){
+module.exports={header:{},text:`歷代志上1 Chronicles1ch
+1:1亞當、設、以挪士、
+1:2該南、瑪勒列、雅列、
+1:3以諾、瑪土撒拉、拉麥、 
+1:4挪亞、閃、含、雅弗。
+1:5雅弗的子歌蔑、瑪各、瑪代、雅完、土巴、米設、提拉。 
+1:6歌蔑的子亞實基拿、低法、陀迦瑪。 
+1:7雅完的子以利沙、搭四、基提、羅單。 
+1:8含的子古實、麥西音、弗、迦南。 
+1:9古實的子西巴、哈腓拉、撒弗他、拉瑪、撒弗提迦。拉瑪的子示巴、底但。 
+1:10古實生寧錄；伊做世上英雄的起頭。 
+1:11麥西音生路亭音、亞拿米音、利哈比音，拿弗土希音、 
+1:12帕斯魯細音、迦斯路希音，（對出非利士人）、迦斐託音。
+1:13迦南生大子西頓，及赫， 
+1:14以及耶布斯、亞摩利、革迦撒、 
+1:15希未、亞基、西尼、 
+1:16亞瓦底、洗瑪利、哈馬諸個族。 
+1:17閃的子以攔、亞述、亞法撒、路德、亞蘭、烏斯、戶勒、基帖、米設。 
+1:18亞法撒生沙拉；沙拉生希伯。 
+1:19希伯生二個子：一個名叫法勒，因為佇伊彼時地上就分界；法勒的小弟名叫約坍。 
+1:20約坍生亞摩答、沙列、哈薩瑪非、耶拉、 
+1:21哈多蘭、烏薩、德拉、 
+1:22以巴錄、亞比瑪利、示巴、 
+1:23阿斐、哈腓拉、約巴。諸個攏是約坍的子。 
+1:24閃、亞法撒、 
+1:25沙拉、希伯、法勒、拉吳、 
+1:26西鹿、拿福、他拉、 
+1:27亞伯蘭，亞伯蘭就是亞伯拉罕。 
+1:28亞伯拉罕的子以撒、以實瑪利。 
+1:29的世系記佇下底：以實瑪利的大子尼拜約，閣有基達、押德別、米比衫、 
+1:30米施瑪、度瑪、瑪撒、哈達、提瑪、 
+1:31伊突、拿非施、基底瑪。諸個攏是以實瑪利的子。 
+1:32亞伯拉罕的細姨基土拉所生的子，就是心蘭、約珊、米但、米甸、伊施巴、書亞。約珊的子示巴、底但。 
+1:33米甸的子以法、以弗、哈諾、亞比大、以勒大。諸個攏是基土拉的子孫。 
+1:34亞伯拉罕生以撒；以撒的子以掃及以色列。
+1:35以掃的子以利法、流珥、耶烏施、雅蘭、可拉。 
+1:36以利法的子提幔、阿抹、洗玻、迦坦、基納斯、亭納、亞瑪力。 
+1:37流珥的子拿哈、謝拉、拉瑪、米撒。
+1:38西珥的子羅坍、朔巴、祭便、亞拿、底順、以察、底珊。 
+1:39羅坍的子何利、荷幔；羅坍的姊妹是亭納。 
+1:40朔巴的子亞勒文、瑪拿轄、以巴錄、示非、阿南。祭便的子亞雅、亞拿。 
+1:41亞拿的子底順。底順的子哈默蘭、伊是班、益蘭、基蘭。
+1:42以察的子辟罕、撒番、亞干。底珊的子烏斯、亞蘭。 
+1:43當以色列人未有君王治理的代先，佇以東地做王來治理的記佇下底：比珥的子比拉，伊的京城名叫亭哈巴。 
+1:44比拉死了，波斯拉人謝拉的子約巴續接伊做王。 
+1:45約巴死了，提幔地的人戶珊續接伊做王。 
+1:46戶珊死了，比達的子哈達續接伊做王。伊就是佇摩押地刣贏米甸人的，伊的京城名叫亞未得。
+1:47哈達死了，瑪士利加人桑拉續接伊做王。 
+1:48桑拉死了，河邊利河伯人掃羅續接伊做王。 
+1:49掃羅死了，亞革波的子巴勒哈南續接伊做王。
+1:50巴勒哈南死了，哈達續接伊做王。伊的京城名叫巴伊，伊的某名叫米希他別，是米薩合的查某孫，瑪特列的查某子。 
+1:51哈達死，有以東人的族長就是亭納族長、亞勒瓦族長、耶帖族長、 
+1:52亞何利巴瑪族長、以拉族長、比嫩族長、 
+1:53基納斯族長、提幔族長、米比薩族長、
+1:54瑪基疊族長、以蘭族長。諸個就是以東人的族長`
+,tags:[
+[4,4,"source",{s:4,l:12}],
+[0,4,"book"],
+[4,12,"bookname"],
+[16,3,"bookcode"],
+[20,3,"verse"],
+[23,2,"u"],
+[26,1,"u"],
+[28,3,"u"],
+[33,-15,"verse"],
+[36,-14,"/verse"],
+[36,-17,"u"],
+[38,-16,"/u"],
+[39,-19,"u"],
+[42,-18,"/u"],
+[43,2,"u"],
+[47,-23,"verse"],
+[50,-22,"/verse"],
+[50,2,"u"],
+null,
+[53,4,"u"],
+null,
+[58,-29,"u"],
+[60,-28,"/u"],
+[63,-31,"verse"],
+[66,-30,"/verse"],
+[66,-33,"u"],
+[68,-32,"/u"],
+[69,-35,"u"],
+[70,-34,"/u"],
+[71,-37,"u"],
+[72,-36,"/u"],
+[73,-39,"u"],
+[75,-38,"/u"],
+[77,-41,"verse"],
+[80,-40,"/verse"],
+[80,-43,"u"],
+[82,-42,"/u"],
+[84,-45,"u"],
+[86,-44,"/u"],
+[87,-47,"u"],
+[89,-46,"/u"],
+[90,-49,"u"],
+[92,-48,"/u"],
+[93,-51,"u"],
+[95,-50,"/u"],
+[96,-53,"u"],
+[98,-52,"/u"],
+[99,-55,"u"],
+[101,-54,"/u"],
+[102,-57,"u"],
+[104,-56,"/u"],
+[107,-59,"verse"],
+[110,-58,"/verse"],
+[110,-61,"u"],
+[112,-60,"/u"],
+[114,-63,"u"],
+[118,-62,"/u"],
+[119,-65,"u"],
+[121,-64,"/u"],
+[122,-67,"u"],
+[125,-66,"/u"],
+[128,-69,"verse"],
+[131,-68,"/verse"],
+[131,-71,"u"],
+[133,-70,"/u"],
+[135,-73,"u"],
+[138,-72,"/u"],
+[139,-75,"u"],
+[141,-74,"/u"],
+[142,-77,"u"],
+[144,-76,"/u"],
+[145,-79,"u"],
+[147,-78,"/u"],
+[150,-81,"verse"],
+[153,-80,"/verse"],
+[153,-83,"u"],
+[154,-82,"/u"],
+[156,-85,"u"],
+[158,-84,"/u"],
+[159,-87,"u"],
+[162,-86,"/u"],
+[165,-89,"u"],
+[167,-88,"/u"],
+[170,-91,"verse"],
+[173,-90,"/verse"],
+[173,-93,"u"],
+[175,-92,"/u"],
+[177,-95,"u"],
+[179,-94,"/u"],
+[184,-97,"u"],
+[187,-96,"/u"],
+[188,-99,"u"],
+[190,-98,"/u"],
+[191,-101,"u"],
+[195,-100,"/u"],
+[196,-103,"u"],
+[198,-102,"/u"],
+[200,-105,"u"],
+[202,-104,"/u"],
+[203,-107,"u"],
+[205,-106,"/u"],
+[208,-109,"verse"],
+[212,-108,"/verse"],
+[212,-111,"u"],
+[214,-110,"/u"],
+[215,-113,"u"],
+[217,-112,"/u"],
+[230,-115,"verse"],
+[234,-114,"/verse"],
+[234,-117,"u"],
+[237,-116,"/u"],
+[238,-119,"u"],
+[241,-118,"/u"],
+[242,-121,"u"],
+[246,-120,"/u"],
+[247,-123,"u"],
+[251,-122,"/u"],
+[252,-125,"u"],
+[257,-124,"/u"],
+[260,-127,"verse"],
+[264,-126,"/verse"],
+[264,-129,"u"],
+[269,-128,"/u"],
+[270,-131,"u"],
+[275,-130,"/u"],
+[278,0,"img",{"src":"../in.jpg","width":"16","height":"16","align":"absmiddle"}],
+[279,-134,"u"],
+[282,-133,"/u"],
+[285,-136,"u"],
+[289,-135,"/u"],
+[291,-138,"verse"],
+[295,-137,"/verse"],
+[295,-140,"u"],
+[297,-139,"/u"],
+[300,-142,"u"],
+[302,-141,"/u"],
+[304,-144,"u"],
+[305,-143,"/u"],
+[308,-146,"verse"],
+[312,-145,"/verse"],
+[314,-148,"u"],
+[317,-147,"/u"],
+[318,-150,"u"],
+[321,-149,"/u"],
+[322,-152,"u"],
+[325,-151,"/u"],
+[328,-154,"verse"],
+[332,-153,"/verse"],
+[332,-156,"u"],
+[334,-155,"/u"],
+[335,-158,"u"],
+[337,-157,"/u"],
+[338,-160,"u"],
+[340,-159,"/u"],
+[343,-162,"verse"],
+[347,-161,"/verse"],
+[347,-164,"u"],
+[350,-163,"/u"],
+[351,-166,"u"],
+[354,-165,"/u"],
+[355,-168,"u"],
+[357,-167,"/u"],
+[363,-170,"verse"],
+[367,-169,"/verse"],
+[367,-172,"u"],
+[368,-171,"/u"],
+[370,-174,"u"],
+[372,-173,"/u"],
+[373,-176,"u"],
+[375,-175,"/u"],
+[376,-178,"u"],
+[379,-177,"/u"],
+[380,-180,"u"],
+[382,-179,"/u"],
+[383,-182,"u"],
+[385,-181,"/u"],
+[386,-184,"u"],
+[388,-183,"/u"],
+[389,-186,"u"],
+[391,-185,"/u"],
+[392,-188,"u"],
+[394,-187,"/u"],
+[395,-190,"u"],
+[397,-189,"/u"],
+[400,-192,"verse"],
+[404,-191,"/verse"],
+[404,-194,"u"],
+[407,-193,"/u"],
+[411,-196,"u"],
+[413,-195,"/u"],
+[414,-198,"u"],
+[416,-197,"/u"],
+[419,-200,"verse"],
+[423,-199,"/verse"],
+[423,-202,"u"],
+[425,-201,"/u"],
+[433,-204,"u"],
+[436,-203,"/u"],
+[449,-206,"u"],
+[451,-205,"/u"],
+[456,-208,"u"],
+[458,-207,"/u"],
+[461,-210,"verse"],
+[465,-209,"/verse"],
+[465,-212,"u"],
+[467,-211,"/u"],
+[468,-214,"u"],
+[471,-213,"/u"],
+[472,-216,"u"],
+[474,-215,"/u"],
+[475,-218,"u"],
+[479,-217,"/u"],
+[480,-220,"u"],
+[482,-219,"/u"],
+[485,-222,"verse"],
+[489,-221,"/verse"],
+[489,-224,"u"],
+[492,-223,"/u"],
+[493,-226,"u"],
+[495,-225,"/u"],
+[496,-228,"u"],
+[498,-227,"/u"],
+[501,-230,"verse"],
+[505,-229,"/verse"],
+[505,-232,"u"],
+[508,-231,"/u"],
+[509,-234,"u"],
+[513,-233,"/u"],
+[514,-236,"u"],
+[516,-235,"/u"],
+[519,-238,"verse"],
+[523,-237,"/verse"],
+[523,-240,"u"],
+[525,-239,"/u"],
+[526,-242,"u"],
+[529,-241,"/u"],
+[530,-244,"u"],
+[532,-243,"/u"],
+[537,-246,"u"],
+[539,-245,"/u"],
+[544,-248,"verse"],
+[548,-247,"/verse"],
+[548,-250,"u"],
+[549,-249,"/u"],
+[550,-252,"u"],
+[553,-251,"/u"],
+[556,-254,"verse"],
+[560,-253,"/verse"],
+[560,-256,"u"],
+[562,-255,"/u"],
+[563,-258,"u"],
+[565,-257,"/u"],
+[566,-260,"u"],
+[568,-259,"/u"],
+[569,-262,"u"],
+[571,-261,"/u"],
+[574,-264,"verse"],
+[578,-263,"/verse"],
+[578,-266,"u"],
+[580,-265,"/u"],
+[581,-268,"u"],
+[583,-267,"/u"],
+[584,-270,"u"],
+[586,-269,"/u"],
+[589,-272,"verse"],
+[593,-271,"/verse"],
+[593,-274,"u"],
+[596,-273,"/u"],
+[597,-276,"u"],
+[600,-275,"/u"],
+[602,-278,"u"],
+[606,-277,"/u"],
+[609,-280,"verse"],
+[613,-279,"/verse"],
+[613,-282,"u"],
+[617,-281,"/u"],
+[619,-284,"u"],
+[621,-283,"/u"],
+[622,-286,"u"],
+[626,-285,"/u"],
+[629,-288,"verse"],
+[633,-287,"/verse"],
+[633,0,"img",{"src":"../in.jpg","width":"16","height":"16","align":"absmiddle"}],
+[641,-291,"u"],
+[645,-290,"/u"],
+[648,-293,"u"],
+[651,-292,"/u"],
+[654,-295,"u"],
+[656,-294,"/u"],
+[657,-297,"u"],
+[660,-296,"/u"],
+[661,-299,"u"],
+[664,-298,"/u"],
+[667,-301,"verse"],
+[671,-300,"/verse"],
+[671,-303,"u"],
+[674,-302,"/u"],
+[675,-305,"u"],
+[677,-304,"/u"],
+[678,-307,"u"],
+[680,-306,"/u"],
+[681,-309,"u"],
+[683,-308,"/u"],
+[684,-311,"u"],
+[686,-310,"/u"],
+[689,-313,"verse"],
+[693,-312,"/verse"],
+[693,-315,"u"],
+[695,-314,"/u"],
+[696,-317,"u"],
+[699,-316,"/u"],
+[700,-319,"u"],
+[703,-318,"/u"],
+[708,-321,"u"],
+[712,-320,"/u"],
+[717,-323,"verse"],
+[721,-322,"/verse"],
+[721,-325,"u"],
+[725,-324,"/u"],
+[728,-327,"u"],
+[731,-326,"/u"],
+[738,-329,"u"],
+[740,-328,"/u"],
+[741,-331,"u"],
+[743,-330,"/u"],
+[744,-333,"u"],
+[746,-332,"/u"],
+[747,-335,"u"],
+[749,-334,"/u"],
+[750,-337,"u"],
+[753,-336,"/u"],
+[754,-339,"u"],
+[756,-338,"/u"],
+[757,-341,"u"],
+[759,-340,"/u"],
+[761,-343,"u"],
+[763,-342,"/u"],
+[764,-345,"u"],
+[766,-344,"/u"],
+[769,-347,"verse"],
+[773,-346,"/verse"],
+[773,-349,"u"],
+[775,-348,"/u"],
+[777,-351,"u"],
+[779,-350,"/u"],
+[780,-353,"u"],
+[782,-352,"/u"],
+[783,-355,"u"],
+[785,-354,"/u"],
+[790,-357,"u"],
+[793,-356,"/u"],
+[798,-359,"u"],
+[801,-358,"/u"],
+[807,-361,"verse"],
+[811,-360,"/verse"],
+[811,-363,"u"],
+[815,-362,"/u"],
+[816,-365,"u"],
+[818,-364,"/u"],
+[819,-367,"u"],
+[821,-366,"/u"],
+[823,-369,"u"],
+[825,-368,"/u"],
+[826,-371,"u"],
+[829,-370,"/u"],
+[831,-373,"verse"],
+[835,-372,"/verse"],
+[835,-375,"u"],
+[837,-374,"/u"],
+[839,-377,"u"],
+[842,-376,"/u"],
+[843,-379,"u"],
+[845,-378,"/u"],
+[846,-381,"u"],
+[849,-380,"/u"],
+[850,-383,"u"],
+[852,-382,"/u"],
+[853,-385,"u"],
+[855,-384,"/u"],
+[858,-387,"verse"],
+[862,-386,"/verse"],
+[862,-389,"u"],
+[865,-388,"/u"],
+[867,-391,"u"],
+[869,-390,"/u"],
+[873,-393,"u"],
+[875,-392,"/u"],
+[876,-395,"u"],
+[878,-394,"/u"],
+[879,-397,"u"],
+[882,-396,"/u"],
+[883,-399,"u"],
+[885,-398,"/u"],
+[886,-401,"u"],
+[889,-400,"/u"],
+[892,-403,"verse"],
+[896,-402,"/verse"],
+[896,-405,"u"],
+[898,-404,"/u"],
+[900,-407,"u"],
+[902,-406,"/u"],
+[903,-409,"u"],
+[905,-408,"/u"],
+[906,-411,"u"],
+[908,-410,"/u"],
+[909,-413,"u"],
+[911,-412,"/u"],
+[913,-415,"verse"],
+[917,-414,"/verse"],
+[917,-417,"u"],
+[919,-416,"/u"],
+[921,-419,"u"],
+[923,-418,"/u"],
+[924,-421,"u"],
+[926,-420,"/u"],
+[927,-423,"u"],
+[929,-422,"/u"],
+[930,-425,"u"],
+[932,-424,"/u"],
+[936,-427,"u"],
+[938,-426,"/u"],
+[939,-429,"u"],
+[941,-428,"/u"],
+[944,-431,"verse"],
+[948,-430,"/verse"],
+[948,-433,"u"],
+[950,-432,"/u"],
+[952,-435,"u"],
+[954,-434,"/u"],
+[955,-437,"u"],
+[957,-436,"/u"],
+[958,-439,"u"],
+[960,-438,"/u"],
+[964,-441,"u"],
+[966,-440,"/u"],
+[969,-443,"verse"],
+[973,-442,"/verse"],
+[973,-445,"u"],
+[975,-444,"/u"],
+[977,-447,"u"],
+[980,-446,"/u"],
+[981,-449,"u"],
+[984,-448,"/u"],
+[985,-451,"u"],
+[988,-450,"/u"],
+[989,-453,"u"],
+[991,-452,"/u"],
+[992,-455,"u"],
+[994,-454,"/u"],
+[995,-457,"u"],
+[997,-456,"/u"],
+[999,-459,"u"],
+[1001,-458,"/u"],
+[1002,-461,"u"],
+[1004,-460,"/u"],
+[1007,-463,"verse"],
+[1011,-462,"/verse"],
+[1011,-465,"u"],
+[1013,-464,"/u"],
+[1015,-467,"u"],
+[1017,-466,"/u"],
+[1018,-469,"u"],
+[1020,-468,"/u"],
+[1022,-471,"u"],
+[1025,-470,"/u"],
+[1028,-473,"u"],
+[1029,-472,"/u"],
+[1030,-475,"u"],
+[1032,-474,"/u"],
+[1033,-477,"u"],
+[1035,-476,"/u"],
+[1037,-479,"verse"],
+[1041,-478,"/verse"],
+[1041,-481,"u"],
+[1043,-480,"/u"],
+[1045,-483,"u"],
+[1047,-482,"/u"],
+[1048,-485,"u"],
+[1050,-484,"/u"],
+[1051,-487,"u"],
+[1053,-486,"/u"],
+[1054,-489,"u"],
+[1056,-488,"/u"],
+[1058,-491,"u"],
+[1060,-490,"/u"],
+[1061,-493,"u"],
+[1063,-492,"/u"],
+[1066,-495,"verse"],
+[1070,-494,"/verse"],
+[1071,-497,"u"],
+[1074,-496,"/u"],
+[1086,-499,"u"],
+[1088,-498,"/u"],
+[1100,-501,"u"],
+[1102,-500,"/u"],
+[1104,-503,"u"],
+[1106,-502,"/u"],
+[1113,-505,"u"],
+[1116,-504,"/u"],
+[1119,-507,"verse"],
+[1123,-506,"/verse"],
+[1123,-509,"u"],
+[1125,-508,"/u"],
+[1128,-511,"u"],
+[1131,-510,"/u"],
+[1132,-513,"u"],
+[1134,-512,"/u"],
+[1136,-515,"u"],
+[1138,-514,"/u"],
+[1146,-517,"verse"],
+[1150,-516,"/verse"],
+[1150,-519,"u"],
+[1152,-518,"/u"],
+[1155,-521,"u"],
+[1157,-520,"/u"],
+[1160,-523,"u"],
+[1162,-522,"/u"],
+[1170,-525,"verse"],
+[1174,-524,"/verse"],
+[1174,-527,"u"],
+[1176,-526,"/u"],
+[1179,-529,"u"],
+[1181,-528,"/u"],
+[1195,-531,"u"],
+[1197,-530,"/u"],
+[1200,-533,"u"],
+[1202,-532,"/u"],
+[1211,-535,"u"],
+[1214,-534,"/u"],
+[1216,-537,"verse"],
+[1220,-536,"/verse"],
+[1220,-539,"u"],
+[1222,-538,"/u"],
+[1225,-541,"u"],
+[1229,-540,"/u"],
+[1230,-543,"u"],
+[1232,-542,"/u"],
+[1240,-545,"verse"],
+[1244,-544,"/verse"],
+[1244,-547,"u"],
+[1246,-546,"/u"],
+[1251,-549,"u"],
+[1254,-548,"/u"],
+[1255,-551,"u"],
+[1257,-550,"/u"],
+[1265,-553,"verse"],
+[1269,-552,"/verse"],
+[1269,-555,"u"],
+[1271,-554,"/u"],
+[1274,-557,"u"],
+[1277,-556,"/u"],
+[1279,-559,"u"],
+[1283,-558,"/u"],
+[1290,-561,"verse"],
+[1294,-560,"/verse"],
+[1294,-563,"u"],
+[1298,-562,"/u"],
+[1301,-565,"u"],
+[1303,-564,"/u"],
+[1315,-567,"u"],
+[1317,-566,"/u"],
+[1323,-569,"u"],
+[1327,-568,"/u"],
+[1329,-571,"u"],
+[1332,-570,"/u"],
+[1337,-573,"u"],
+[1340,-572,"/u"],
+[1347,-575,"verse"],
+[1351,-574,"/verse"],
+[1351,-577,"u"],
+[1353,-576,"/u"],
+[1356,-579,"u"],
+[1358,-578,"/u"],
+[1364,-581,"u"],
+[1366,-580,"/u"],
+[1375,-583,"u"],
+[1377,-582,"/u"],
+[1382,-585,"verse"],
+[1386,-584,"/verse"],
+[1386,-587,"u"],
+[1391,-586,"/u"],
+[1394,-589,"u"],
+[1396,-588,"/u"],
+[1399,-591,"u"],
+[1401,-590,"/u"],
+[1406,-593,"verse"],
+[1410,-592,"/verse"],
+[1410,-595,"u"],
+[1413,-594,"/u"],
+[1416,-597,"u"],
+[1418,-596,"/u"],
+[1421,-599,"u"],
+[1424,-598,"/u"],
+[1428,-601,"verse"],
+[1432,-600,"/verse"],
+[1432,-603,"u"],
+[1435,-602,"/u"],
+[1438,-605,"u"],
+[1440,-604,"/u"],
+[1447,-607,"u"],
+[1449,-606,"/u"]
+]};
+},{}],"/Users/samsuanchen/ksana2015/kmf-editor/index.js":[function(require,module,exports){
 var React=require("react");
 var ReactDOM=require("react-dom");
 require("ksana2015-webruntime/livereload")(); 
 var ksanagap=require("ksana2015-webruntime/ksanagap");
 ksanagap.boot("kmf-editor",function(){
-	var Main=React.createElement(require("./src/main.jsx"));
+	var Main=React.createElement(require("./src/sammain.jsx"));
 	ksana.mainComponent=ReactDOM.render(Main,document.getElementById("main"));
 });
-},{"./src/main.jsx":"C:\\ksana2015\\kmf-editor\\src\\main.jsx","ksana2015-webruntime/ksanagap":"C:\\ksana2015\\node_modules\\ksana2015-webruntime\\ksanagap.js","ksana2015-webruntime/livereload":"C:\\ksana2015\\node_modules\\ksana2015-webruntime\\livereload.js","react":"react","react-dom":"react-dom"}],"C:\\ksana2015\\kmf-editor\\src\\controls.js":[function(require,module,exports){
+},{"./src/sammain.jsx":"/Users/samsuanchen/ksana2015/kmf-editor/src/sammain.jsx","ksana2015-webruntime/ksanagap":"/Users/samsuanchen/ksana2015/node_modules/ksana2015-webruntime/ksanagap.js","ksana2015-webruntime/livereload":"/Users/samsuanchen/ksana2015/node_modules/ksana2015-webruntime/livereload.js","react":"react","react-dom":"react-dom"}],"/Users/samsuanchen/ksana2015/kmf-editor/src/controls.js":[function(require,module,exports){
 var React=require("react");
 var E=React.createElement;
 
@@ -17,89 +676,7 @@ var Controls=React.createClass({displayName: "Controls",
 	}
 });
 module.exports=Controls
-},{"react":"react"}],"C:\\ksana2015\\kmf-editor\\src\\main.jsx":[function(require,module,exports){
-var React=require("react");
-var E=React.createElement;
-var fs=require("./socketfs");
-var kcm=require("ksana-codemirror");
-var CodeMirror=kcm.Component;
-
-var Controls=require("./controls");
-var fn="1n8_o.kmf";
-var maincomponent = React.createClass({displayName: "maincomponent",
-  getInitialState:function() {
-    return {text:""};
-  }
-  ,markText:function(tags){
-    for (var i=0;i<tags.length;i++) {
-      var tag=tags[i];
-      //if (tag[2]!=="p" || !tag[3] || !tag[3]["xml:id"]) continue;
-      //if (tag[1]=="lb/")continue;
-
-      
-      if (tag[1]>0) {
-        var start=this.doc.posFromIndex( tag[0]);
-        var end=this.doc.posFromIndex(tag[0]+tag[1]);
-        this.doc.markText(start,end,{className:"standOff",readOnly:true,payload:tag[3]})
-      }  else {
-        var marker = document.createElement('span');
-        marker.className= "tag";
-        marker.innerHTML="<";
-        if (tag[2][0]=="/") marker.innerHTML=">"
-        if (tag[2][tag[2].length-1]=="/") marker.innerHTML="&#8823;"
-        var start=this.doc.posFromIndex( tag[0]);
-        this.doc.setBookmark(start,{widget:marker});
-      }
-
-
-    }
-
-  }
-  ,componentDidMount:function(){
-    this.editor=this.refs.cm.getCodeMirror();
-    this.doc=this.editor.doc;
-
-    this.editor.focus();
-    fs.readFile(fn,"utf8",function(err,data){
-      var content=eval(data);
-      this.setState(content);
-      this.editor.setValue(content.text);
-      this.markText(content.tags);
-    }.bind(this));
-  }
-  ,inSource:function(){
-
-  }
-  ,onKeyUp:function(cm,evt){
-  }
-  ,breakSource:function(marker,at) { //break marker into two, to allow input
-    var pos=marker.find();
-    var py=marker.payload;
-    var part1len=at.ch-pos.from.ch;
-    console.log(part1len)
-    this.doc.markText(pos.from , at ,{className:"standOff",readOnly:true,payload:{s:py.s,l:part1len}});
-    this.doc.markText(at , pos.to , {className:"standOff",readOnly:true,payload:{s:py.s+part1len,l:py.l-part1len}});
-    marker.clear();
-  }
-  ,onKeyPress:function(cm,evt) {
-    var pos=this.doc.getCursor("from");
-    var markers=this.doc.findMarksAt(pos);
-    if (markers.length==1) {
-      var m=markers[0];
-      if (m.readOnly) this.breakSource(m,pos);
-    }
-
-  }
-  ,render: function() {
-    return E("div",{"data-i":1},
-        E(Controls,{}),
-        E(CodeMirror,{ref:"cm",value:this.state.text,theme:"ambiance"
-          ,onKeyUp:this.onKeyUp,onKeyPress:this.onKeyPress})
-      );
-  }
-});
-module.exports=maincomponent;
-},{"./controls":"C:\\ksana2015\\kmf-editor\\src\\controls.js","./socketfs":"C:\\ksana2015\\kmf-editor\\src\\socketfs.js","ksana-codemirror":"C:\\ksana2015\\node_modules\\ksana-codemirror\\src\\index.js","react":"react"}],"C:\\ksana2015\\kmf-editor\\src\\node\\readdirmeta.js":[function(require,module,exports){
+},{"react":"react"}],"/Users/samsuanchen/ksana2015/kmf-editor/src/node/readdirmeta.js":[function(require,module,exports){
 /**
 	read all ktx files and return meta json
 */
@@ -146,7 +723,7 @@ var readdirmeta=function(dataroot,path,cb){
 	},10);//wait for nw 
 }
 module.exports=readdirmeta;
-},{"fs":false}],"C:\\ksana2015\\kmf-editor\\src\\rpc\\rpc.js":[function(require,module,exports){
+},{"fs":false}],"/Users/samsuanchen/ksana2015/kmf-editor/src/rpc/rpc.js":[function(require,module,exports){
 /*
 	this is for browser, a simple wrapper for socket.io rpc
 	
@@ -200,7 +777,7 @@ window.host=pchost;
 module.exports=pchost;
 
 })();
-},{}],"C:\\ksana2015\\kmf-editor\\src\\rpc\\rpc_fs.js":[function(require,module,exports){
+},{}],"/Users/samsuanchen/ksana2015/kmf-editor/src/rpc/rpc_fs.js":[function(require,module,exports){
 var host=require("./rpc");
 
 var makeinf=function(name) {
@@ -226,7 +803,7 @@ API.readdir=makeinf("readdir");
 
 
 module.exports=API;
-},{"./rpc":"C:\\ksana2015\\kmf-editor\\src\\rpc\\rpc.js"}],"C:\\ksana2015\\kmf-editor\\src\\rpc\\rpc_util.js":[function(require,module,exports){
+},{"./rpc":"/Users/samsuanchen/ksana2015/kmf-editor/src/rpc/rpc.js"}],"/Users/samsuanchen/ksana2015/kmf-editor/src/rpc/rpc_util.js":[function(require,module,exports){
 var host=require("./rpc");
 
 var makeinf=function(name) {
@@ -248,7 +825,88 @@ host.exec(function(err,data){
 
 
 module.exports=API;
-},{"./rpc":"C:\\ksana2015\\kmf-editor\\src\\rpc\\rpc.js"}],"C:\\ksana2015\\kmf-editor\\src\\socketfs.js":[function(require,module,exports){
+},{"./rpc":"/Users/samsuanchen/ksana2015/kmf-editor/src/rpc/rpc.js"}],"/Users/samsuanchen/ksana2015/kmf-editor/src/sammain.jsx":[function(require,module,exports){
+var React=require("react");
+var E=React.createElement;
+var fs=require("./socketfs");
+var kcm=require("ksana-codemirror");
+var CodeMirror=kcm.Component;
+
+var Controls=require("./controls");
+//var fn="1n8_o.js";
+var content=require("../bible/test.kmf");
+
+var maincomponent = React.createClass({displayName: "maincomponent",
+  getInitialState:function() {
+    return {text:content.text};
+  }
+  ,markText:function(tags){
+    for (var i=0;i<tags.length;i++) {
+      var tag=tags[i];
+      //if (tag[2]!=="p" || !tag[3] || !tag[3]["xml:id"]) continue;
+      //if (tag[1]=="lb/")continue;
+
+      
+      if (tag[1]>0) {
+        var start=this.doc.posFromIndex( tag[0]);
+        var end=this.doc.posFromIndex(tag[0]+tag[1]);
+        this.doc.markText(start,end,{className:tag[2],readOnly:true,payload:tag[3]})
+      }  else {
+        var marker = document.createElement('span');
+        marker.className= "tag";
+        marker.innerHTML="<";
+        if (tag[2][0]=="/") marker.innerHTML=">"
+        if (tag[2][tag[2].length-1]=="/") marker.innerHTML="&#8823;"
+        var start=this.doc.posFromIndex( tag[0]);
+        this.doc.setBookmark(start,{widget:marker});
+      }
+
+
+    }
+
+  }
+  ,componentDidMount:function(){
+    this.editor=this.refs.cm.getCodeMirror();
+    this.doc=this.editor.doc;
+
+    this.editor.focus();
+
+    this.markText(content.tags);
+  }
+  ,inSource:function(){
+
+  }
+  ,onKeyUp:function(cm,evt){
+  }
+  ,breakSource:function(marker,at) { //break marker into two, to allow input
+    var pos=marker.find();
+    var py=marker.payload||{};
+    var part1len=at.ch-pos.from.ch;
+    console.log(part1len)
+    this.doc.markText(pos.from , at ,{className:marker.className,readOnly:true,payload:{s:py.s,l:part1len}});
+    this.doc.markText(at , pos.to , {className:marker.className,readOnly:true,payload:{s:py.s+part1len,l:py.l-part1len}});
+    marker.clear();
+  }
+  ,onKeyPress:function(cm,evt) {
+    var pos=this.doc.getCursor("from");
+    var markers=this.doc.findMarksAt(pos);
+    if (markers.length==1) {
+      var m=markers[0];
+      if (m.readOnly) this.breakSource(m,pos);
+    }
+
+  }
+  ,render: function() {
+    return E("div",{"data-i":1},
+        E(Controls,{}),
+        E(CodeMirror,{ref:"cm",value:this.state.text,theme:"ambiance"
+          ,onKeyUp:this.onKeyUp,onKeyPress:this.onKeyPress})
+      );
+  }
+});
+module.exports=maincomponent;
+
+},{"../bible/test.kmf":"/Users/samsuanchen/ksana2015/kmf-editor/bible/test.kmf","./controls":"/Users/samsuanchen/ksana2015/kmf-editor/src/controls.js","./socketfs":"/Users/samsuanchen/ksana2015/kmf-editor/src/socketfs.js","ksana-codemirror":"/Users/samsuanchen/ksana2015/node_modules/ksana-codemirror/src/index.js","react":"react"}],"/Users/samsuanchen/ksana2015/kmf-editor/src/socketfs.js":[function(require,module,exports){
 var fs=(typeof process!=="undefined")?require("fs"):{}; // webpack.config.js node:{    fs:"empty" }
 if (typeof fs.readFile=="undefined") {
 	var rpcfs=require("./rpc/rpc_fs");	
@@ -322,7 +980,7 @@ var readdirmeta=function(path,cb) {//read all meta in given path
 }
 module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
 	unlink:unlink,mkdir:mkdir,readdir:readdir,readdirmeta:readdirmeta,ready:ready};
-},{"./node/readdirmeta":"C:\\ksana2015\\kmf-editor\\src\\node\\readdirmeta.js","./rpc/rpc_fs":"C:\\ksana2015\\kmf-editor\\src\\rpc\\rpc_fs.js","./rpc/rpc_util":"C:\\ksana2015\\kmf-editor\\src\\rpc\\rpc_util.js","fs":false}],"C:\\ksana2015\\node_modules\\codemirror\\addon\\dialog\\dialog.js":[function(require,module,exports){
+},{"./node/readdirmeta":"/Users/samsuanchen/ksana2015/kmf-editor/src/node/readdirmeta.js","./rpc/rpc_fs":"/Users/samsuanchen/ksana2015/kmf-editor/src/rpc/rpc_fs.js","./rpc/rpc_util":"/Users/samsuanchen/ksana2015/kmf-editor/src/rpc/rpc_util.js","fs":false}],"/Users/samsuanchen/ksana2015/node_modules/codemirror/addon/dialog/dialog.js":[function(require,module,exports){
 // CodeMirror, copyright (c) by Marijn Haverbeke and others
 // Distributed under an MIT license: http://codemirror.net/LICENSE
 
@@ -381,6 +1039,8 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
 
     var inp = dialog.getElementsByTagName("input")[0], button;
     if (inp) {
+      inp.focus();
+
       if (options.value) {
         inp.value = options.value;
         if (options.selectValueOnOpen !== false) {
@@ -404,8 +1064,6 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
       });
 
       if (options.closeOnBlur !== false) CodeMirror.on(inp, "blur", close);
-
-      inp.focus();
     } else if (button = dialog.getElementsByTagName("button")[0]) {
       CodeMirror.on(button, "click", function() {
         close();
@@ -481,7 +1139,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
   });
 });
 
-},{"../../lib/codemirror":"C:\\ksana2015\\node_modules\\codemirror\\lib\\codemirror.js"}],"C:\\ksana2015\\node_modules\\codemirror\\addon\\display\\panel.js":[function(require,module,exports){
+},{"../../lib/codemirror":"/Users/samsuanchen/ksana2015/node_modules/codemirror/lib/codemirror.js"}],"/Users/samsuanchen/ksana2015/node_modules/codemirror/addon/display/panel.js":[function(require,module,exports){
 // CodeMirror, copyright (c) by Marijn Haverbeke and others
 // Distributed under an MIT license: http://codemirror.net/LICENSE
 
@@ -595,7 +1253,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
   }
 });
 
-},{"../../lib/codemirror":"C:\\ksana2015\\node_modules\\codemirror\\lib\\codemirror.js"}],"C:\\ksana2015\\node_modules\\codemirror\\addon\\hint\\show-hint.js":[function(require,module,exports){
+},{"../../lib/codemirror":"/Users/samsuanchen/ksana2015/node_modules/codemirror/lib/codemirror.js"}],"/Users/samsuanchen/ksana2015/node_modules/codemirror/addon/hint/show-hint.js":[function(require,module,exports){
 // CodeMirror, copyright (c) by Marijn Haverbeke and others
 // Distributed under an MIT license: http://codemirror.net/LICENSE
 
@@ -623,8 +1281,18 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
   };
 
   CodeMirror.defineExtension("showHint", function(options) {
-    // We want a single cursor position.
-    if (this.listSelections().length > 1 || this.somethingSelected()) return;
+    options = parseOptions(this, this.getCursor("start"), options);
+    var selections = this.listSelections()
+    if (selections.length > 1) return;
+    // By default, don't allow completion when something is selected.
+    // A hint function can have a `supportsSelection` property to
+    // indicate that it can handle selections.
+    if (this.somethingSelected()) {
+      if (!options.hint.supportsSelection) return;
+      // Don't try with cross-line selections
+      for (var i = 0; i < selections.length; i++)
+        if (selections[i].head.line != selections[i].anchor.line) return;
+    }
 
     if (this.state.completionActive) this.state.completionActive.close();
     var completion = this.state.completionActive = new Completion(this, options);
@@ -636,12 +1304,12 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
 
   function Completion(cm, options) {
     this.cm = cm;
-    this.options = this.buildOptions(options);
+    this.options = options;
     this.widget = null;
     this.debounce = 0;
     this.tick = 0;
-    this.startPos = this.cm.getCursor();
-    this.startLen = this.cm.getLine(this.startPos.line).length;
+    this.startPos = this.cm.getCursor("start");
+    this.startLen = this.cm.getLine(this.startPos.line).length - this.cm.getSelection().length;
 
     var self = this;
     cm.on("cursorActivity", this.activityFunc = function() { self.cursorActivity(); });
@@ -709,11 +1377,13 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
 
     finishUpdate: function(data, first) {
       if (this.data) CodeMirror.signal(this.data, "update");
-      if (data && this.data && CodeMirror.cmpPos(data.from, this.data.from)) data = null;
-      this.data = data;
 
       var picked = (this.widget && this.widget.picked) || (first && this.options.completeSingle);
       if (this.widget) this.widget.close();
+
+      if (data && this.data && isNewCompletion(this.data, data)) return;
+      this.data = data;
+
       if (data && data.list.length) {
         if (picked && data.list.length == 1) {
           this.pick(data, 0);
@@ -722,19 +1392,25 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
           CodeMirror.signal(data, "shown");
         }
       }
-    },
-
-    buildOptions: function(options) {
-      var editor = this.cm.options.hintOptions;
-      var out = {};
-      for (var prop in defaultOptions) out[prop] = defaultOptions[prop];
-      if (editor) for (var prop in editor)
-        if (editor[prop] !== undefined) out[prop] = editor[prop];
-      if (options) for (var prop in options)
-        if (options[prop] !== undefined) out[prop] = options[prop];
-      return out;
     }
   };
+
+  function isNewCompletion(old, nw) {
+    var moved = CodeMirror.cmpPos(nw.from, old.from)
+    return moved > 0 && old.to.ch - old.from.ch != nw.to.ch - nw.from.ch
+  }
+
+  function parseOptions(cm, pos, options) {
+    var editor = cm.options.hintOptions;
+    var out = {};
+    for (var prop in defaultOptions) out[prop] = defaultOptions[prop];
+    if (editor) for (var prop in editor)
+      if (editor[prop] !== undefined) out[prop] = editor[prop];
+    if (options) for (var prop in options)
+      if (options[prop] !== undefined) out[prop] = options[prop];
+    if (out.hint.resolve) out.hint = out.hint.resolve(cm, pos)
+    return out;
+  }
 
   function getText(completion) {
     if (typeof completion == "string") return completion;
@@ -934,18 +1610,61 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
     }
   };
 
-  CodeMirror.registerHelper("hint", "auto", function(cm, options) {
-    var helpers = cm.getHelpers(cm.getCursor(), "hint"), words;
+  function applicableHelpers(cm, helpers) {
+    if (!cm.somethingSelected()) return helpers
+    var result = []
+    for (var i = 0; i < helpers.length; i++)
+      if (helpers[i].supportsSelection) result.push(helpers[i])
+    return result
+  }
+
+  function resolveAutoHints(cm, pos) {
+    var helpers = cm.getHelpers(pos, "hint"), words
     if (helpers.length) {
-      for (var i = 0; i < helpers.length; i++) {
-        var cur = helpers[i](cm, options);
-        if (cur && cur.list.length) return cur;
+      var async = false, resolved
+      for (var i = 0; i < helpers.length; i++) if (helpers[i].async) async = true
+      if (async) {
+        resolved = function(cm, callback, options) {
+          var app = applicableHelpers(cm, helpers)
+          function run(i, result) {
+            if (i == app.length) return callback(null)
+            var helper = app[i]
+            if (helper.async) {
+              helper(cm, function(result) {
+                if (result) callback(result)
+                else run(i + 1)
+              }, options)
+            } else {
+              var result = helper(cm, options)
+              if (result) callback(result)
+              else run(i + 1)
+            }
+          }
+          run(0)
+        }
+        resolved.async = true
+      } else {
+        resolved = function(cm, options) {
+          var app = applicableHelpers(cm, helpers)
+          for (var i = 0; i < app.length; i++) {
+            var cur = app[i](cm, options)
+            if (cur && cur.list.length) return cur
+          }
+        }
       }
+      resolved.supportsSelection = true
+      return resolved
     } else if (words = cm.getHelper(cm.getCursor(), "hintWords")) {
-      if (words) return CodeMirror.hint.fromList(cm, {words: words});
+      return function(cm) { return CodeMirror.hint.fromList(cm, {words: words}) }
     } else if (CodeMirror.hint.anyword) {
-      return CodeMirror.hint.anyword(cm, options);
+      return function(cm, options) { return CodeMirror.hint.anyword(cm, options) }
+    } else {
+      return function() {}
     }
+  }
+
+  CodeMirror.registerHelper("hint", "auto", {
+    resolve: resolveAutoHints
   });
 
   CodeMirror.registerHelper("hint", "fromList", function(cm, options) {
@@ -974,7 +1693,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
     alignWithWord: true,
     closeCharacters: /[\s()\[\]{};:>,]/,
     closeOnUnfocus: true,
-    completeOnSingleClick: false,
+    completeOnSingleClick: true,
     container: null,
     customKeys: null,
     extraKeys: null
@@ -983,7 +1702,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
   CodeMirror.defineOption("hintOptions", null);
 });
 
-},{"../../lib/codemirror":"C:\\ksana2015\\node_modules\\codemirror\\lib\\codemirror.js"}],"C:\\ksana2015\\node_modules\\codemirror\\addon\\search\\search.js":[function(require,module,exports){
+},{"../../lib/codemirror":"/Users/samsuanchen/ksana2015/node_modules/codemirror/lib/codemirror.js"}],"/Users/samsuanchen/ksana2015/node_modules/codemirror/addon/search/search.js":[function(require,module,exports){
 // CodeMirror, copyright (c) by Marijn Haverbeke and others
 // Distributed under an MIT license: http://codemirror.net/LICENSE
 
@@ -1015,7 +1734,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
       query.lastIndex = stream.pos;
       var match = query.exec(stream.string);
       if (match && match.index == stream.pos) {
-        stream.pos += match[0].length;
+        stream.pos += match[0].length || 1;
         return "searching";
       } else if (match) {
         stream.pos = match.index;
@@ -1213,7 +1932,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
   CodeMirror.commands.replaceAll = function(cm) {replace(cm, true);};
 });
 
-},{"../../lib/codemirror":"C:\\ksana2015\\node_modules\\codemirror\\lib\\codemirror.js","../dialog/dialog":"C:\\ksana2015\\node_modules\\codemirror\\addon\\dialog\\dialog.js","./searchcursor":"C:\\ksana2015\\node_modules\\codemirror\\addon\\search\\searchcursor.js"}],"C:\\ksana2015\\node_modules\\codemirror\\addon\\search\\searchcursor.js":[function(require,module,exports){
+},{"../../lib/codemirror":"/Users/samsuanchen/ksana2015/node_modules/codemirror/lib/codemirror.js","../dialog/dialog":"/Users/samsuanchen/ksana2015/node_modules/codemirror/addon/dialog/dialog.js","./searchcursor":"/Users/samsuanchen/ksana2015/node_modules/codemirror/addon/search/searchcursor.js"}],"/Users/samsuanchen/ksana2015/node_modules/codemirror/addon/search/searchcursor.js":[function(require,module,exports){
 // CodeMirror, copyright (c) by Marijn Haverbeke and others
 // Distributed under an MIT license: http://codemirror.net/LICENSE
 
@@ -1404,7 +2123,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
   });
 });
 
-},{"../../lib/codemirror":"C:\\ksana2015\\node_modules\\codemirror\\lib\\codemirror.js"}],"C:\\ksana2015\\node_modules\\codemirror\\addon\\selection\\active-line.js":[function(require,module,exports){
+},{"../../lib/codemirror":"/Users/samsuanchen/ksana2015/node_modules/codemirror/lib/codemirror.js"}],"/Users/samsuanchen/ksana2015/node_modules/codemirror/addon/selection/active-line.js":[function(require,module,exports){
 // CodeMirror, copyright (c) by Marijn Haverbeke and others
 // Distributed under an MIT license: http://codemirror.net/LICENSE
 
@@ -1425,6 +2144,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
   "use strict";
   var WRAP_CLASS = "CodeMirror-activeline";
   var BACK_CLASS = "CodeMirror-activeline-background";
+  var GUTT_CLASS = "CodeMirror-activeline-gutter";
 
   CodeMirror.defineOption("styleActiveLine", false, function(cm, val, old) {
     var prev = old && old != CodeMirror.Init;
@@ -1443,6 +2163,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
     for (var i = 0; i < cm.state.activeLines.length; i++) {
       cm.removeLineClass(cm.state.activeLines[i], "wrap", WRAP_CLASS);
       cm.removeLineClass(cm.state.activeLines[i], "background", BACK_CLASS);
+      cm.removeLineClass(cm.state.activeLines[i], "gutter", GUTT_CLASS);
     }
   }
 
@@ -1467,6 +2188,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
       for (var i = 0; i < active.length; i++) {
         cm.addLineClass(active[i], "wrap", WRAP_CLASS);
         cm.addLineClass(active[i], "background", BACK_CLASS);
+        cm.addLineClass(active[i], "gutter", GUTT_CLASS);
       }
       cm.state.activeLines = active;
     });
@@ -1477,7 +2199,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
   }
 });
 
-},{"../../lib/codemirror":"C:\\ksana2015\\node_modules\\codemirror\\lib\\codemirror.js"}],"C:\\ksana2015\\node_modules\\codemirror\\lib\\codemirror.js":[function(require,module,exports){
+},{"../../lib/codemirror":"/Users/samsuanchen/ksana2015/node_modules/codemirror/lib/codemirror.js"}],"/Users/samsuanchen/ksana2015/node_modules/codemirror/lib/codemirror.js":[function(require,module,exports){
 // CodeMirror, copyright (c) by Marijn Haverbeke and others
 // Distributed under an MIT license: http://codemirror.net/LICENSE
 
@@ -1493,7 +2215,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
   else if (typeof define == "function" && define.amd) // AMD
     return define([], mod);
   else // Plain browser env
-    this.CodeMirror = mod();
+    (this || window).CodeMirror = mod();
 })(function() {
   "use strict";
 
@@ -1501,27 +2223,29 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
 
   // Kludges for bugs and behavior differences that can't be feature
   // detected are enabled based on userAgent etc sniffing.
+  var userAgent = navigator.userAgent;
+  var platform = navigator.platform;
 
-  var gecko = /gecko\/\d/i.test(navigator.userAgent);
-  var ie_upto10 = /MSIE \d/.test(navigator.userAgent);
-  var ie_11up = /Trident\/(?:[7-9]|\d{2,})\..*rv:(\d+)/.exec(navigator.userAgent);
+  var gecko = /gecko\/\d/i.test(userAgent);
+  var ie_upto10 = /MSIE \d/.test(userAgent);
+  var ie_11up = /Trident\/(?:[7-9]|\d{2,})\..*rv:(\d+)/.exec(userAgent);
   var ie = ie_upto10 || ie_11up;
   var ie_version = ie && (ie_upto10 ? document.documentMode || 6 : ie_11up[1]);
-  var webkit = /WebKit\//.test(navigator.userAgent);
-  var qtwebkit = webkit && /Qt\/\d+\.\d+/.test(navigator.userAgent);
-  var chrome = /Chrome\//.test(navigator.userAgent);
-  var presto = /Opera\//.test(navigator.userAgent);
+  var webkit = /WebKit\//.test(userAgent);
+  var qtwebkit = webkit && /Qt\/\d+\.\d+/.test(userAgent);
+  var chrome = /Chrome\//.test(userAgent);
+  var presto = /Opera\//.test(userAgent);
   var safari = /Apple Computer/.test(navigator.vendor);
-  var mac_geMountainLion = /Mac OS X 1\d\D([8-9]|\d\d)\D/.test(navigator.userAgent);
-  var phantom = /PhantomJS/.test(navigator.userAgent);
+  var mac_geMountainLion = /Mac OS X 1\d\D([8-9]|\d\d)\D/.test(userAgent);
+  var phantom = /PhantomJS/.test(userAgent);
 
-  var ios = /AppleWebKit/.test(navigator.userAgent) && /Mobile\/\w+/.test(navigator.userAgent);
+  var ios = /AppleWebKit/.test(userAgent) && /Mobile\/\w+/.test(userAgent);
   // This is woefully incomplete. Suggestions for alternative methods welcome.
-  var mobile = ios || /Android|webOS|BlackBerry|Opera Mini|Opera Mobi|IEMobile/i.test(navigator.userAgent);
-  var mac = ios || /Mac/.test(navigator.platform);
-  var windows = /win/i.test(navigator.platform);
+  var mobile = ios || /Android|webOS|BlackBerry|Opera Mini|Opera Mobi|IEMobile/i.test(userAgent);
+  var mac = ios || /Mac/.test(platform);
+  var windows = /win/i.test(platform);
 
-  var presto_version = presto && navigator.userAgent.match(/Version\/(\d*\.\d*)/);
+  var presto_version = presto && userAgent.match(/Version\/(\d*\.\d*)/);
   if (presto_version) presto_version = Number(presto_version[1]);
   if (presto_version && presto_version >= 15) { presto = false; webkit = true; }
   // Some browsers use the wrong event properties to signal cmd/ctrl on OS X
@@ -1888,7 +2612,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
       if (horiz.clientWidth) scroll(horiz.scrollLeft, "horizontal");
     });
 
-    this.checkedOverlay = false;
+    this.checkedZeroWidth = false;
     // Need to set a minimum width to see the scrollbar on IE7 (but must not set it on IE8).
     if (ie && ie_version < 8) this.horiz.style.minHeight = this.vert.style.minWidth = "18px";
   }
@@ -1923,29 +2647,43 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
         this.horiz.firstChild.style.width = "0";
       }
 
-      if (!this.checkedOverlay && measure.clientHeight > 0) {
-        if (sWidth == 0) this.overlayHack();
-        this.checkedOverlay = true;
+      if (!this.checkedZeroWidth && measure.clientHeight > 0) {
+        if (sWidth == 0) this.zeroWidthHack();
+        this.checkedZeroWidth = true;
       }
 
       return {right: needsV ? sWidth : 0, bottom: needsH ? sWidth : 0};
     },
     setScrollLeft: function(pos) {
       if (this.horiz.scrollLeft != pos) this.horiz.scrollLeft = pos;
+      if (this.disableHoriz) this.enableZeroWidthBar(this.horiz, this.disableHoriz);
     },
     setScrollTop: function(pos) {
       if (this.vert.scrollTop != pos) this.vert.scrollTop = pos;
+      if (this.disableVert) this.enableZeroWidthBar(this.vert, this.disableVert);
     },
-    overlayHack: function() {
+    zeroWidthHack: function() {
       var w = mac && !mac_geMountainLion ? "12px" : "18px";
-      this.horiz.style.minHeight = this.vert.style.minWidth = w;
-      var self = this;
-      var barMouseDown = function(e) {
-        if (e_target(e) != self.vert && e_target(e) != self.horiz)
-          operation(self.cm, onMouseDown)(e);
-      };
-      on(this.vert, "mousedown", barMouseDown);
-      on(this.horiz, "mousedown", barMouseDown);
+      this.horiz.style.height = this.vert.style.width = w;
+      this.horiz.style.pointerEvents = this.vert.style.pointerEvents = "none";
+      this.disableHoriz = new Delayed;
+      this.disableVert = new Delayed;
+    },
+    enableZeroWidthBar: function(bar, delay) {
+      bar.style.pointerEvents = "auto";
+      function maybeDisable() {
+        // To find out whether the scrollbar is still visible, we
+        // check whether the element under the pixel in the bottom
+        // left corner of the scrollbar box is the scrollbar box
+        // itself (when the bar is still visible) or its filler child
+        // (when the bar is hidden). If it is still visible, we keep
+        // it enabled, if it's hidden, we disable pointer events.
+        var box = bar.getBoundingClientRect();
+        var elt = document.elementFromPoint(box.left + 1, box.bottom - 1);
+        if (elt != bar) bar.style.pointerEvents = "none";
+        else delay.set(1000, maybeDisable);
+      }
+      delay.set(1000, maybeDisable);
     },
     clear: function() {
       var parent = this.horiz.parentNode;
@@ -2007,6 +2745,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
 
     d.sizer.style.paddingRight = (d.barWidth = sizes.right) + "px";
     d.sizer.style.paddingBottom = (d.barHeight = sizes.bottom) + "px";
+    d.heightForcer.style.borderBottom = sizes.bottom + "px solid transparent"
 
     if (sizes.right && sizes.bottom) {
       d.scrollbarFiller.style.display = "block";
@@ -2210,6 +2949,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
 
   function postUpdateDisplay(cm, update) {
     var viewport = update.viewport;
+
     for (var first = true;; first = false) {
       if (!first || !cm.options.lineWrapping || update.oldDisplayWidth == displayWidth(cm)) {
         // Clip forced viewport to actual scrollable area.
@@ -2225,8 +2965,8 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
       updateHeightsInViewport(cm);
       var barMeasure = measureForScrollbars(cm);
       updateSelection(cm);
-      setDocumentHeight(cm, barMeasure);
       updateScrollbars(cm, barMeasure);
+      setDocumentHeight(cm, barMeasure);
     }
 
     update.signal(cm, "update", cm);
@@ -2243,17 +2983,16 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
       postUpdateDisplay(cm, update);
       var barMeasure = measureForScrollbars(cm);
       updateSelection(cm);
-      setDocumentHeight(cm, barMeasure);
       updateScrollbars(cm, barMeasure);
+      setDocumentHeight(cm, barMeasure);
       update.finish();
     }
   }
 
   function setDocumentHeight(cm, measure) {
     cm.display.sizer.style.minHeight = measure.docHeight + "px";
-    var total = measure.docHeight + cm.display.barHeight;
-    cm.display.heightForcer.style.top = total + "px";
-    cm.display.gutters.style.height = Math.max(total + scrollGap(cm), measure.clientHeight) + "px";
+    cm.display.heightForcer.style.top = measure.docHeight + "px";
+    cm.display.gutters.style.height = (measure.docHeight + cm.display.barHeight + scrollGap(cm)) + "px";
   }
 
   // Read the actual heights of the rendered lines, and update their
@@ -2287,7 +3026,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
   // given line.
   function updateWidgetHeight(line) {
     if (line.widgets) for (var i = 0; i < line.widgets.length; ++i)
-      line.widgets[i].height = line.widgets[i].node.offsetHeight;
+      line.widgets[i].height = line.widgets[i].node.parentNode.offsetHeight;
   }
 
   // Do a bulk-read of the DOM positions and sizes needed to draw the
@@ -2558,10 +3297,6 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
     if (!cm.state.focused) { cm.display.input.focus(); onFocus(cm); }
   }
 
-  function isReadOnly(cm) {
-    return cm.options.readOnly || cm.doc.cantEdit;
-  }
-
   // This will be set to an array of strings when copying, so that,
   // when pasting, we know what kind of selections the copied text
   // was made out of.
@@ -2616,7 +3351,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
     var pasted = e.clipboardData && e.clipboardData.getData("text/plain");
     if (pasted) {
       e.preventDefault();
-      if (!isReadOnly(cm) && !cm.options.disableInput)
+      if (!cm.isReadOnly() && !cm.options.disableInput)
         runInOp(cm, function() { applyTextInput(cm, pasted, 0, null, "paste"); });
       return true;
     }
@@ -2719,13 +3454,14 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
       });
 
       on(te, "paste", function(e) {
-        if (handlePaste(e, cm)) return true;
+        if (signalDOMEvent(cm, e) || handlePaste(e, cm)) return
 
         cm.state.pasteIncoming = true;
         input.fastPoll();
       });
 
       function prepareCopyCut(e) {
+        if (signalDOMEvent(cm, e)) return
         if (cm.somethingSelected()) {
           lastCopied = cm.getSelections();
           if (input.inaccurateSelection) {
@@ -2753,7 +3489,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
       on(te, "copy", prepareCopyCut);
 
       on(display.scroller, "paste", function(e) {
-        if (eventInWidget(display, e)) return;
+        if (eventInWidget(display, e) || signalDOMEvent(cm, e)) return;
         cm.state.pasteIncoming = true;
         input.focus();
       });
@@ -2887,7 +3623,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
       // in which case reading its value would be expensive.
       if (this.contextMenuPending || !cm.state.focused ||
           (hasSelection(input) && !prevInput && !this.composing) ||
-          isReadOnly(cm) || cm.options.disableInput || cm.state.keySeq)
+          cm.isReadOnly() || cm.options.disableInput || cm.state.keySeq)
         return false;
 
       var text = input.value;
@@ -2949,10 +3685,11 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
       if (reset && cm.doc.sel.contains(pos) == -1)
         operation(cm, setSelection)(cm.doc, simpleSelection(pos), sel_dontScroll);
 
-      var oldCSS = te.style.cssText;
-      input.wrapper.style.position = "absolute";
-      te.style.cssText = "position: fixed; width: 30px; height: 30px; top: " + (e.clientY - 5) +
-        "px; left: " + (e.clientX - 5) + "px; z-index: 1000; background: " +
+      var oldCSS = te.style.cssText, oldWrapperCSS = input.wrapper.style.cssText;
+      input.wrapper.style.cssText = "position: absolute"
+      var wrapperBox = input.wrapper.getBoundingClientRect()
+      te.style.cssText = "position: absolute; width: 30px; height: 30px; top: " + (e.clientY - wrapperBox.top - 5) +
+        "px; left: " + (e.clientX - wrapperBox.left - 5) + "px; z-index: 1000; background: " +
         (ie ? "rgba(255, 255, 255, .05)" : "transparent") +
         "; outline: none; border-width: 0; outline: none; overflow: hidden; opacity: .05; filter: alpha(opacity=5);";
       if (webkit) var oldScrollY = window.scrollY; // Work around Chrome issue (#2712)
@@ -2983,7 +3720,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
       }
       function rehide() {
         input.contextMenuPending = false;
-        input.wrapper.style.position = "relative";
+        input.wrapper.style.cssText = oldWrapperCSS
         te.style.cssText = oldCSS;
         if (ie && ie_version < 9) display.scrollbars.setScrollTop(display.scroller.scrollTop = scrollPos);
 
@@ -3014,6 +3751,10 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
       }
     },
 
+    readOnlyChanged: function(val) {
+      if (!val) this.reset();
+    },
+
     setUneditable: nothing,
 
     needsContentAttribute: false
@@ -3032,10 +3773,11 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
     init: function(display) {
       var input = this, cm = input.cm;
       var div = input.div = display.lineDiv;
-      div.contentEditable = "true";
       disableBrowserMagic(div);
 
-      on(div, "paste", function(e) { handlePaste(e, cm); })
+      on(div, "paste", function(e) {
+        if (!signalDOMEvent(cm, e)) handlePaste(e, cm);
+      })
 
       on(div, "compositionstart", function(e) {
         var data = e.data;
@@ -3073,11 +3815,12 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
 
       on(div, "input", function() {
         if (input.composing) return;
-        if (!input.pollContent())
+        if (cm.isReadOnly() || !input.pollContent())
           runInOp(input.cm, function() {regChange(cm);});
       });
 
       function onCopyCut(e) {
+        if (signalDOMEvent(cm, e)) return
         if (cm.somethingSelected()) {
           lastCopied = cm.getSelections();
           if (e.type == "cut") cm.replaceSelection("", null, "cut");
@@ -3097,13 +3840,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
         if (e.clipboardData && !ios) {
           e.preventDefault();
           e.clipboardData.clearData();
-          var toclipboard=lastCopied.join("\n");
-          if (cm._handlers&& cm._handlers.beforeCopyToClipboard) {
-            cm._handlers.beforeCopyToClipboard.forEach(function(handler){
-              toclipboard=handler(toclipboard,cm);
-            })
-          }
-          e.clipboardData.setData("text/plain", toclipboard);
+          e.clipboardData.setData("text/plain", lastCopied.join("\n"));
         } else {
           // Old-fashioned briefly-focus-a-textarea hack
           var kludge = hiddenTextarea(), te = kludge.firstChild;
@@ -3159,8 +3896,13 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
       try { var rng = range(start.node, start.offset, end.offset, end.node); }
       catch(e) {} // Our model of the DOM might be outdated, in which case the range we try to set can be impossible
       if (rng) {
-        sel.removeAllRanges();
-        sel.addRange(rng);
+        if (!gecko && this.cm.state.focused) {
+          sel.collapse(start.node, start.offset);
+          if (!rng.collapsed) sel.addRange(rng);
+        } else {
+          sel.removeAllRanges();
+          sel.addRange(rng);
+        }
         if (old && sel.anchorNode == null) sel.addRange(old);
         else if (gecko) this.startGracePeriod();
       }
@@ -3304,17 +4046,24 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
       this.div.focus();
     },
     applyComposition: function(composing) {
-      if (composing.data && composing.data != composing.startData)
+      if (this.cm.isReadOnly())
+        operation(this.cm, regChange)(this.cm)
+      else if (composing.data && composing.data != composing.startData)
         operation(this.cm, applyTextInput)(this.cm, composing.data, 0, composing.sel);
     },
 
     setUneditable: function(node) {
-      node.setAttribute("contenteditable", "false");
+      node.contentEditable = "false"
     },
 
     onKeyPress: function(e) {
       e.preventDefault();
-      operation(this.cm, applyTextInput)(this.cm, String.fromCharCode(e.charCode == null ? e.keyCode : e.charCode), 0);
+      if (!this.cm.isReadOnly())
+        operation(this.cm, applyTextInput)(this.cm, String.fromCharCode(e.charCode == null ? e.keyCode : e.charCode), 0);
+    },
+
+    readOnlyChanged: function(val) {
+      this.div.contentEditable = String(val != "nocursor")
     },
 
     onContextMenu: nothing,
@@ -3614,7 +4363,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
 
   // Give beforeSelectionChange handlers a change to influence a
   // selection update.
-  function filterSelectionChange(doc, sel) {
+  function filterSelectionChange(doc, sel, options) {
     var obj = {
       ranges: sel.ranges,
       update: function(ranges) {
@@ -3622,7 +4371,8 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
         for (var i = 0; i < ranges.length; i++)
           this.ranges[i] = new Range(clipPos(doc, ranges[i].anchor),
                                      clipPos(doc, ranges[i].head));
-      }
+      },
+      origin: options && options.origin
     };
     signal(doc, "beforeSelectionChange", doc, obj);
     if (doc.cm) signal(doc.cm, "beforeSelectionChange", doc.cm, obj);
@@ -3648,7 +4398,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
 
   function setSelectionNoUndo(doc, sel, options) {
     if (hasHandler(doc, "beforeSelectionChange") || doc.cm && hasHandler(doc.cm, "beforeSelectionChange"))
-      sel = filterSelectionChange(doc, sel);
+      sel = filterSelectionChange(doc, sel, options);
 
     var bias = options && options.bias ||
       (cmp(sel.primary().head, doc.sel.primary().head) < 0 ? -1 : 1);
@@ -3682,8 +4432,9 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
     var out;
     for (var i = 0; i < sel.ranges.length; i++) {
       var range = sel.ranges[i];
-      var newAnchor = skipAtomic(doc, range.anchor, bias, mayClear);
-      var newHead = skipAtomic(doc, range.head, bias, mayClear);
+      var old = sel.ranges.length == doc.sel.ranges.length && doc.sel.ranges[i];
+      var newAnchor = skipAtomic(doc, range.anchor, old && old.anchor, bias, mayClear);
+      var newHead = skipAtomic(doc, range.head, old && old.head, bias, mayClear);
       if (out || newAnchor != range.anchor || newHead != range.head) {
         if (!out) out = sel.ranges.slice(0, i);
         out[i] = new Range(newAnchor, newHead);
@@ -3692,54 +4443,61 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
     return out ? normalizeSelection(out, sel.primIndex) : sel;
   }
 
-  // Ensure a given position is not inside an atomic range.
-  function skipAtomic(doc, pos, bias, mayClear) {
-    var flipped = false, curPos = pos;
-    var dir = bias || 1;
-    doc.cantEdit = false;
-    search: for (;;) {
-      var line = getLine(doc, curPos.line);
-      if (line.markedSpans) {
-        for (var i = 0; i < line.markedSpans.length; ++i) {
-          var sp = line.markedSpans[i], m = sp.marker;
-          if ((sp.from == null || (m.inclusiveLeft ? sp.from <= curPos.ch : sp.from < curPos.ch)) &&
-              (sp.to == null || (m.inclusiveRight ? sp.to >= curPos.ch : sp.to > curPos.ch))) {
-            if (mayClear) {
-              signal(m, "beforeCursorEnter");
-              if (m.explicitlyCleared) {
-                if (!line.markedSpans) break;
-                else {--i; continue;}
-              }
-            }
-            if (!m.atomic) continue;
-            var newPos = m.find(dir < 0 ? -1 : 1);
-            if (cmp(newPos, curPos) == 0) {
-              newPos.ch += dir;
-              if (newPos.ch < 0) {
-                if (newPos.line > doc.first) newPos = clipPos(doc, Pos(newPos.line - 1));
-                else newPos = null;
-              } else if (newPos.ch > line.text.length) {
-                if (newPos.line < doc.first + doc.size - 1) newPos = Pos(newPos.line + 1, 0);
-                else newPos = null;
-              }
-              if (!newPos) {
-                if (flipped) {
-                  // Driven in a corner -- no valid cursor position found at all
-                  // -- try again *with* clearing, if we didn't already
-                  if (!mayClear) return skipAtomic(doc, pos, bias, true);
-                  // Otherwise, turn off editing until further notice, and return the start of the doc
-                  doc.cantEdit = true;
-                  return Pos(doc.first, 0);
-                }
-                flipped = true; newPos = pos; dir = -dir;
-              }
-            }
-            curPos = newPos;
-            continue search;
+  function skipAtomicInner(doc, pos, oldPos, dir, mayClear) {
+    var line = getLine(doc, pos.line);
+    if (line.markedSpans) for (var i = 0; i < line.markedSpans.length; ++i) {
+      var sp = line.markedSpans[i], m = sp.marker;
+      if ((sp.from == null || (m.inclusiveLeft ? sp.from <= pos.ch : sp.from < pos.ch)) &&
+          (sp.to == null || (m.inclusiveRight ? sp.to >= pos.ch : sp.to > pos.ch))) {
+        if (mayClear) {
+          signal(m, "beforeCursorEnter");
+          if (m.explicitlyCleared) {
+            if (!line.markedSpans) break;
+            else {--i; continue;}
           }
         }
+        if (!m.atomic) continue;
+
+        if (oldPos) {
+          var near = m.find(dir < 0 ? 1 : -1), diff;
+          if (dir < 0 ? m.inclusiveRight : m.inclusiveLeft)
+            near = movePos(doc, near, -dir, near && near.line == pos.line ? line : null);
+          if (near && near.line == pos.line && (diff = cmp(near, oldPos)) && (dir < 0 ? diff < 0 : diff > 0))
+            return skipAtomicInner(doc, near, pos, dir, mayClear);
+        }
+
+        var far = m.find(dir < 0 ? -1 : 1);
+        if (dir < 0 ? m.inclusiveLeft : m.inclusiveRight)
+          far = movePos(doc, far, dir, far.line == pos.line ? line : null);
+        return far ? skipAtomicInner(doc, far, pos, dir, mayClear) : null;
       }
-      return curPos;
+    }
+    return pos;
+  }
+
+  // Ensure a given position is not inside an atomic range.
+  function skipAtomic(doc, pos, oldPos, bias, mayClear) {
+    var dir = bias || 1;
+    var found = skipAtomicInner(doc, pos, oldPos, dir, mayClear) ||
+        (!mayClear && skipAtomicInner(doc, pos, oldPos, dir, true)) ||
+        skipAtomicInner(doc, pos, oldPos, -dir, mayClear) ||
+        (!mayClear && skipAtomicInner(doc, pos, oldPos, -dir, true));
+    if (!found) {
+      doc.cantEdit = true;
+      return Pos(doc.first, 0);
+    }
+    return found;
+  }
+
+  function movePos(doc, pos, dir, line) {
+    if (dir < 0 && pos.ch == 0) {
+      if (pos.line > doc.first) return clipPos(doc, Pos(pos.line - 1));
+      else return null;
+    } else if (dir > 0 && pos.ch == (line || getLine(doc, pos.line)).text.length) {
+      if (pos.line < doc.first + doc.size - 1) return Pos(pos.line + 1, 0);
+      else return null;
+    } else {
+      return new Pos(pos.line, pos.ch + dir);
     }
   }
 
@@ -3757,6 +4515,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
     for (var i = 0; i < doc.sel.ranges.length; i++) {
       if (primary === false && i == doc.sel.primIndex) continue;
       var range = doc.sel.ranges[i];
+      if (range.from().line >= cm.display.viewTo || range.to().line < cm.display.viewFrom) continue;
       var collapsed = range.empty();
       if (collapsed || cm.options.showCursorWhenSelecting)
         drawSelectionCursor(cm, range.head, curFragment);
@@ -4558,16 +5317,17 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
 
     if (op.preparedSelection)
       cm.display.input.showSelection(op.preparedSelection);
-    if (op.updatedDisplay)
-      setDocumentHeight(cm, op.barMeasure);
     if (op.updatedDisplay || op.startHeight != cm.doc.height)
       updateScrollbars(cm, op.barMeasure);
+    if (op.updatedDisplay)
+      setDocumentHeight(cm, op.barMeasure);
 
     if (op.selectionChanged) restartBlink(cm);
 
     if (cm.state.focused && op.updateInput)
       cm.display.input.reset(op.typing);
-    if (op.focus && op.focus == activeElt()) ensureFocus(op.cm);
+    if (op.focus && op.focus == activeElt() && (!document.hasFocus || document.hasFocus()))
+      ensureFocus(op.cm);
   }
 
   function endOperation_finish(op) {
@@ -4586,7 +5346,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
       display.scroller.scrollTop = doc.scrollTop;
     }
     if (op.scrollLeft != null && (display.scroller.scrollLeft != op.scrollLeft || op.forceScroll)) {
-      doc.scrollLeft = Math.max(0, Math.min(display.scroller.scrollWidth - displayWidth(cm), op.scrollLeft));
+      doc.scrollLeft = Math.max(0, Math.min(display.scroller.scrollWidth - display.scroller.clientWidth, op.scrollLeft));
       display.scrollbars.setScrollLeft(doc.scrollLeft);
       display.scroller.scrollLeft = doc.scrollLeft;
       alignHorizontally(cm);
@@ -4882,7 +5642,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
       return dx * dx + dy * dy > 20 * 20;
     }
     on(d.scroller, "touchstart", function(e) {
-      if (!isMouseLikeTouchEvent(e)) {
+      if (!signalDOMEvent(cm, e) && !isMouseLikeTouchEvent(e)) {
         clearTimeout(touchFinished);
         var now = +new Date;
         d.activeTouch = {start: now, moved: false,
@@ -4937,7 +5697,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
       over: function(e) {if (!signalDOMEvent(cm, e)) { onDragOver(cm, e); e_stop(e); }},
       start: function(e){onDragStart(cm, e);},
       drop: operation(cm, onDrop),
-      leave: function() {clearDragCursor(cm);}
+      leave: function(e) {if (!signalDOMEvent(cm, e)) { clearDragCursor(cm); }}
     };
 
     var inp = d.input.getField();
@@ -5011,7 +5771,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
   // not interfere with, such as a scrollbar or widget.
   function onMouseDown(e) {
     var cm = this, display = cm.display;
-    if (display.activeTouch && display.input.supportsTouch() || signalDOMEvent(cm, e)) return;
+    if (signalDOMEvent(cm, e) || display.activeTouch && display.input.supportsTouch()) return;
     display.shift = e.shiftKey;
 
     if (eventInWidget(display, e)) {
@@ -5067,7 +5827,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
     }
 
     var sel = cm.doc.sel, modifier = mac ? e.metaKey : e.ctrlKey, contained;
-    if (cm.options.dragDrop && dragAndDrop && !isReadOnly(cm) &&
+    if (cm.options.dragDrop && dragAndDrop && !cm.isReadOnly() &&
         type == "single" && (contained = sel.contains(start)) > -1 &&
         (cmp((contained = sel.ranges[contained]).from(), start) < 0 || start.xRel > 0) &&
         (cmp(contained.to(), start) > 0 || start.xRel < 0))
@@ -5252,7 +6012,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
 
   // Determines whether an event happened in the gutter, and fires the
   // handlers for the corresponding event.
-  function gutterEvent(cm, e, type, prevent, signalfn) {
+  function gutterEvent(cm, e, type, prevent) {
     try { var mX = e.clientX, mY = e.clientY; }
     catch(e) { return false; }
     if (mX >= Math.floor(cm.display.gutters.getBoundingClientRect().right)) return false;
@@ -5269,14 +6029,14 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
       if (g && g.getBoundingClientRect().right >= mX) {
         var line = lineAtHeight(cm.doc, mY);
         var gutter = cm.options.gutters[i];
-        signalfn(cm, type, cm, line, gutter, e);
+        signal(cm, type, cm, line, gutter, e);
         return e_defaultPrevented(e);
       }
     }
   }
 
   function clickInGutter(cm, e) {
-    return gutterEvent(cm, e, "gutterClick", true, signalLater);
+    return gutterEvent(cm, e, "gutterClick", true);
   }
 
   // Kludge to work around strange IE behavior where it'll sometimes
@@ -5291,15 +6051,21 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
     e_preventDefault(e);
     if (ie) lastDrop = +new Date;
     var pos = posFromMouse(cm, e, true), files = e.dataTransfer.files;
-    if (!pos || isReadOnly(cm)) return;
+    if (!pos || cm.isReadOnly()) return;
     // Might be a file drop, in which case we simply extract the text
     // and insert it.
     if (files && files.length && window.FileReader && window.File) {
       var n = files.length, text = Array(n), read = 0;
       var loadFile = function(file, i) {
+        if (cm.options.allowDropFileTypes &&
+            indexOf(cm.options.allowDropFileTypes, file.type) == -1)
+          return;
+
         var reader = new FileReader;
         reader.onload = operation(cm, function() {
-          text[i] = reader.result;
+          var content = reader.result;
+          if (/[\x00-\x08\x0e-\x1f]{2}/.test(content)) content = "";
+          text[i] = content;
           if (++read == n) {
             pos = clipPos(cm.doc, pos);
             var change = {from: pos, to: pos,
@@ -5441,8 +6207,9 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
 
     var display = cm.display, scroll = display.scroller;
     // Quit if there's nothing to scroll here
-    if (!(dx && scroll.scrollWidth > scroll.clientWidth ||
-          dy && scroll.scrollHeight > scroll.clientHeight)) return;
+    var canScrollX = scroll.scrollWidth > scroll.clientWidth;
+    var canScrollY = scroll.scrollHeight > scroll.clientHeight;
+    if (!(dx && canScrollX || dy && canScrollY)) return;
 
     // Webkit browsers on OS X abort momentum scrolls when the target
     // of the scroll event is removed from the scrollable element.
@@ -5466,10 +6233,15 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
     // scrolling entirely here. It'll be slightly off from native, but
     // better than glitching out.
     if (dx && !gecko && !presto && wheelPixelsPerUnit != null) {
-      if (dy)
+      if (dy && canScrollY)
         setScrollTop(cm, Math.max(0, Math.min(scroll.scrollTop + dy * wheelPixelsPerUnit, scroll.scrollHeight - scroll.clientHeight)));
       setScrollLeft(cm, Math.max(0, Math.min(scroll.scrollLeft + dx * wheelPixelsPerUnit, scroll.scrollWidth - scroll.clientWidth)));
-      e_preventDefault(e);
+      // Only prevent default scrolling if vertical scrolling is
+      // actually possible. Otherwise, it causes vertical scroll
+      // jitter on OSX trackpads when deltaX is small and deltaY
+      // is large (issue #3579)
+      if (!dy || (dy && canScrollY))
+        e_preventDefault(e);
       display.wheelStartX = null; // Abort measurement, if in progress
       return;
     }
@@ -5518,7 +6290,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
     cm.display.input.ensurePolled();
     var prevShift = cm.display.shift, done = false;
     try {
-      if (isReadOnly(cm)) cm.state.suppressEdits = true;
+      if (cm.isReadOnly()) cm.state.suppressEdits = true;
       if (dropShift) cm.display.shift = false;
       done = bound(cm) != Pass;
     } finally {
@@ -5697,12 +6469,13 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
   // right-click take effect on it.
   function onContextMenu(cm, e) {
     if (eventInWidget(cm.display, e) || contextMenuInGutter(cm, e)) return;
+    if (signalDOMEvent(cm, e, "contextmenu")) return;
     cm.display.input.onContextMenu(e);
   }
 
   function contextMenuInGutter(cm, e) {
     if (!hasHandler(cm, "gutterContextMenu")) return false;
-    return gutterEvent(cm, e, "gutterContextMenu", false, signal);
+    return gutterEvent(cm, e, "gutterContextMenu", false);
   }
 
   // UPDATING
@@ -6250,10 +7023,9 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
   function findPosH(doc, pos, dir, unit, visually) {
     var line = pos.line, ch = pos.ch, origDir = dir;
     var lineObj = getLine(doc, line);
-    var possible = true;
     function findNextLine() {
       var l = line + dir;
-      if (l < doc.first || l >= doc.first + doc.size) return (possible = false);
+      if (l < doc.first || l >= doc.first + doc.size) return false
       line = l;
       return lineObj = getLine(doc, l);
     }
@@ -6263,14 +7035,16 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
         if (!boundToLine && findNextLine()) {
           if (visually) ch = (dir < 0 ? lineRight : lineLeft)(lineObj);
           else ch = dir < 0 ? lineObj.text.length : 0;
-        } else return (possible = false);
+        } else return false
       } else ch = next;
       return true;
     }
 
-    if (unit == "char") moveOnce();
-    else if (unit == "column") moveOnce(true);
-    else if (unit == "word" || unit == "group") {
+    if (unit == "char") {
+      moveOnce()
+    } else if (unit == "column") {
+      moveOnce(true)
+    } else if (unit == "word" || unit == "group") {
       var sawType = null, group = unit == "group";
       var helper = doc.cm && doc.cm.getHelper(pos, "wordChars");
       for (var first = true;; first = false) {
@@ -6290,8 +7064,8 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
         if (dir > 0 && !moveOnce(!first)) break;
       }
     }
-    var result = skipAtomic(doc, Pos(line, ch), origDir, true);
-    if (!possible) result.hitSide = true;
+    var result = skipAtomic(doc, Pos(line, ch), pos, origDir, true);
+    if (!cmp(pos, result)) result.hitSide = true;
     return result;
   }
 
@@ -6678,6 +7452,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
       signal(this, "overwriteToggle", this, this.state.overwrite);
     },
     hasFocus: function() { return this.display.input.getField() == activeElt(); },
+    isReadOnly: function() { return !!(this.options.readOnly || this.doc.cantEdit); },
 
     scrollTo: methodOp(function(x, y) {
       if (x != null || y != null) resolveScrollToPos(this);
@@ -6875,11 +7650,12 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
       cm.display.disabled = true;
     } else {
       cm.display.disabled = false;
-      if (!val) cm.display.input.reset();
     }
+    cm.display.input.readOnlyChanged(val)
   });
   option("disableInput", false, function(cm, val) {if (!val) cm.display.input.reset();}, true);
   option("dragDrop", true, dragDropChanged);
+  option("allowDropFileTypes", null);
 
   option("cursorBlinkRate", 530);
   option("cursorScrollMargin", 0);
@@ -7184,8 +7960,8 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
           var range = cm.listSelections()[i];
           cm.replaceRange(cm.doc.lineSeparator(), range.anchor, range.head, "+input");
           cm.indentLine(range.from().line + 1, null, true);
-          ensureCursorVisible(cm);
         }
+        ensureCursorVisible(cm);
       });
     },
     toggleOverwrite: function(cm) {cm.toggleOverwrite();}
@@ -8113,7 +8889,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
         parentStyle += "width: " + cm.display.wrapper.clientWidth + "px;";
       removeChildrenAndAdd(cm.display.measure, elt("div", [widget.node], null, parentStyle));
     }
-    return widget.height = widget.node.offsetHeight;
+    return widget.height = widget.node.parentNode.offsetHeight;
   }
 
   function addLineWidget(doc, handle, node, options) {
@@ -8523,7 +9299,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
       if (nextChange == pos) { // Update current marker set
         spanStyle = spanEndStyle = spanStartStyle = title = css = "";
         collapsed = null; nextChange = Infinity;
-        var foundBookmarks = [];
+        var foundBookmarks = [], endStyles
         for (var j = 0; j < spans.length; ++j) {
           var sp = spans[j], m = sp.marker;
           if (m.type == "bookmark" && sp.from == pos && m.widgetNode) {
@@ -8534,9 +9310,9 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
               spanEndStyle = "";
             }
             if (m.className) spanStyle += " " + m.className;
-            if (m.css) css = m.css;
+            if (m.css) css = (css ? css + ";" : "") + m.css;
             if (m.startStyle && sp.from == pos) spanStartStyle += " " + m.startStyle;
-            if (m.endStyle && sp.to == nextChange) spanEndStyle += " " + m.endStyle;
+            if (m.endStyle && sp.to == nextChange) (endStyles || (endStyles = [])).push(m.endStyle, sp.to)
             if (m.title && !title) title = m.title;
             if (m.collapsed && (!collapsed || compareCollapsedMarkers(collapsed.marker, m) < 0))
               collapsed = sp;
@@ -8544,14 +9320,17 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
             nextChange = sp.from;
           }
         }
+        if (endStyles) for (var j = 0; j < endStyles.length; j += 2)
+          if (endStyles[j + 1] == nextChange) spanEndStyle += " " + endStyles[j]
+
+        if (!collapsed || collapsed.from == pos) for (var j = 0; j < foundBookmarks.length; ++j)
+          buildCollapsedSpan(builder, 0, foundBookmarks[j]);
         if (collapsed && (collapsed.from || 0) == pos) {
           buildCollapsedSpan(builder, (collapsed.to == null ? len + 1 : collapsed.to) - pos,
                              collapsed.marker, collapsed.from == null);
           if (collapsed.to == null) return;
           if (collapsed.to == pos) collapsed = false;
         }
-        if (!collapsed && foundBookmarks.length) for (var j = 0; j < foundBookmarks.length; ++j)
-          buildCollapsedSpan(builder, 0, foundBookmarks[j]);
       }
       if (pos >= len) break;
 
@@ -8803,6 +9582,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
     this.id = ++nextDocId;
     this.modeOption = mode;
     this.lineSep = lineSep;
+    this.extend = false;
 
     if (typeof text == "string") text = this.splitLines(text);
     updateDoc(this, {from: start, to: start, text: text});
@@ -8890,10 +9670,11 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
       extendSelection(this, clipPos(this, head), other && clipPos(this, other), options);
     }),
     extendSelections: docMethodOp(function(heads, options) {
-      extendSelections(this, clipPosArray(this, heads, options));
+      extendSelections(this, clipPosArray(this, heads), options);
     }),
     extendSelectionsBy: docMethodOp(function(f, options) {
-      extendSelections(this, map(this.sel.ranges, f), options);
+      var heads = map(this.sel.ranges, f);
+      extendSelections(this, clipPosArray(this, heads), options);
     }),
     setSelections: docMethodOp(function(ranges, primary, options) {
       if (!ranges.length) return;
@@ -9017,8 +9798,8 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
     }),
     removeLineWidget: function(widget) { widget.clear(); },
 
-    markText: function(from, to, options, type) {
-      return markText(this, clipPos(this, from), clipPos(this, to), options, type||"range");
+    markText: function(from, to, options) {
+      return markText(this, clipPos(this, from), clipPos(this, to), options, options && options.type || "range");
     },
     setBookmark: function(pos, options) {
       var realOpts = {replacedWith: options && (options.nodeType == null ? options.widget : options),
@@ -9046,9 +9827,9 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
         var spans = line.markedSpans;
         if (spans) for (var i = 0; i < spans.length; i++) {
           var span = spans[i];
-          if (!(lineNo == from.line && from.ch > span.to ||
-                span.from == null && lineNo != from.line||
-                lineNo == to.line && span.from > to.ch) &&
+          if (!(span.to != null && lineNo == from.line && from.ch > span.to ||
+                span.from == null && lineNo != from.line ||
+                span.from != null && lineNo == to.line && span.from > to.ch) &&
               (!filter || filter(span.marker)))
             found.push(span.marker.parent || span.marker);
         }
@@ -9579,24 +10360,30 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
     }
   };
 
+  var noHandlers = []
+  function getHandlers(emitter, type, copy) {
+    var arr = emitter._handlers && emitter._handlers[type]
+    if (copy) return arr && arr.length > 0 ? arr.slice() : noHandlers
+    else return arr || noHandlers
+  }
+
   var off = CodeMirror.off = function(emitter, type, f) {
     if (emitter.removeEventListener)
       emitter.removeEventListener(type, f, false);
     else if (emitter.detachEvent)
       emitter.detachEvent("on" + type, f);
     else {
-      var arr = emitter._handlers && emitter._handlers[type];
-      if (!arr) return;
-      for (var i = 0; i < arr.length; ++i)
-        if (arr[i] == f) { arr.splice(i, 1); break; }
+      var handlers = getHandlers(emitter, type, false)
+      for (var i = 0; i < handlers.length; ++i)
+        if (handlers[i] == f) { handlers.splice(i, 1); break; }
     }
   };
 
   var signal = CodeMirror.signal = function(emitter, type /*, values...*/) {
-    var arr = emitter._handlers && emitter._handlers[type];
-    if (!arr) return;
+    var handlers = getHandlers(emitter, type, true)
+    if (!handlers.length) return;
     var args = Array.prototype.slice.call(arguments, 2);
-    for (var i = 0; i < arr.length; ++i) arr[i].apply(null, args);
+    for (var i = 0; i < handlers.length; ++i) handlers[i].apply(null, args);
   };
 
   var orphanDelayedCallbacks = null;
@@ -9609,8 +10396,8 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
   // them to be executed when the last operation ends, or, if no
   // operation is active, when a timeout fires.
   function signalLater(emitter, type /*, values...*/) {
-    var arr = emitter._handlers && emitter._handlers[type];
-    if (!arr) return;
+    var arr = getHandlers(emitter, type, false)
+    if (!arr.length) return;
     var args = Array.prototype.slice.call(arguments, 2), list;
     if (operationGroup) {
       list = operationGroup.delayedCallbacks;
@@ -9650,8 +10437,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
   }
 
   function hasHandler(emitter, type) {
-    var arr = emitter._handlers && emitter._handlers[type];
-    return arr && arr.length > 0;
+    return getHandlers(emitter, type).length > 0
   }
 
   // Add on and off methods to a constructor's prototype, to make
@@ -10305,12 +11091,12 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
 
   // THE END
 
-  CodeMirror.version = "5.6.1";
+  CodeMirror.version = "5.13.3";
 
   return CodeMirror;
 });
 
-},{}],"C:\\ksana2015\\node_modules\\ksana-codemirror\\src\\automarkup.js":[function(require,module,exports){
+},{}],"/Users/samsuanchen/ksana2015/node_modules/ksana-codemirror/src/automarkup.js":[function(require,module,exports){
 /*
 	auto markup , base on search.js
 */
@@ -10548,7 +11334,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
   CodeMirror.commands.markup2text = markup2text;
 });
 
-},{"codemirror":"C:\\ksana2015\\node_modules\\codemirror\\lib\\codemirror.js","codemirror/addon/dialog/dialog":"C:\\ksana2015\\node_modules\\codemirror\\addon\\dialog\\dialog.js","codemirror/addon/search/searchcursor":"C:\\ksana2015\\node_modules\\codemirror\\addon\\search\\searchcursor.js"}],"C:\\ksana2015\\node_modules\\ksana-codemirror\\src\\codemirror-react.js":[function(require,module,exports){
+},{"codemirror":"/Users/samsuanchen/ksana2015/node_modules/codemirror/lib/codemirror.js","codemirror/addon/dialog/dialog":"/Users/samsuanchen/ksana2015/node_modules/codemirror/addon/dialog/dialog.js","codemirror/addon/search/searchcursor":"/Users/samsuanchen/ksana2015/node_modules/codemirror/addon/search/searchcursor.js"}],"/Users/samsuanchen/ksana2015/node_modules/ksana-codemirror/src/codemirror-react.js":[function(require,module,exports){
 var CM = require('codemirror');
 
 require('codemirror/addon/display/panel');
@@ -10712,7 +11498,7 @@ var CodeMirrorComponent = React.createClass({
 });
 
 module.exports = CodeMirrorComponent;
-},{"./automarkup.js":"C:\\ksana2015\\node_modules\\ksana-codemirror\\src\\automarkup.js","./ire-hint":"C:\\ksana2015\\node_modules\\ksana-codemirror\\src\\ire-hint.js","./markups":"C:\\ksana2015\\node_modules\\ksana-codemirror\\src\\markups.js","./milestones":"C:\\ksana2015\\node_modules\\ksana-codemirror\\src\\milestones.js","codemirror":"C:\\ksana2015\\node_modules\\codemirror\\lib\\codemirror.js","codemirror/addon/dialog/dialog.js":"C:\\ksana2015\\node_modules\\codemirror\\addon\\dialog\\dialog.js","codemirror/addon/display/panel":"C:\\ksana2015\\node_modules\\codemirror\\addon\\display\\panel.js","codemirror/addon/hint/show-hint.js":"C:\\ksana2015\\node_modules\\codemirror\\addon\\hint\\show-hint.js","codemirror/addon/search/search.js":"C:\\ksana2015\\node_modules\\codemirror\\addon\\search\\search.js","codemirror/addon/search/searchcursor.js":"C:\\ksana2015\\node_modules\\codemirror\\addon\\search\\searchcursor.js","codemirror/addon/selection/active-line":"C:\\ksana2015\\node_modules\\codemirror\\addon\\selection\\active-line.js","react":"react","react-dom":"react-dom"}],"C:\\ksana2015\\node_modules\\ksana-codemirror\\src\\index.js":[function(require,module,exports){
+},{"./automarkup.js":"/Users/samsuanchen/ksana2015/node_modules/ksana-codemirror/src/automarkup.js","./ire-hint":"/Users/samsuanchen/ksana2015/node_modules/ksana-codemirror/src/ire-hint.js","./markups":"/Users/samsuanchen/ksana2015/node_modules/ksana-codemirror/src/markups.js","./milestones":"/Users/samsuanchen/ksana2015/node_modules/ksana-codemirror/src/milestones.js","codemirror":"/Users/samsuanchen/ksana2015/node_modules/codemirror/lib/codemirror.js","codemirror/addon/dialog/dialog.js":"/Users/samsuanchen/ksana2015/node_modules/codemirror/addon/dialog/dialog.js","codemirror/addon/display/panel":"/Users/samsuanchen/ksana2015/node_modules/codemirror/addon/display/panel.js","codemirror/addon/hint/show-hint.js":"/Users/samsuanchen/ksana2015/node_modules/codemirror/addon/hint/show-hint.js","codemirror/addon/search/search.js":"/Users/samsuanchen/ksana2015/node_modules/codemirror/addon/search/search.js","codemirror/addon/search/searchcursor.js":"/Users/samsuanchen/ksana2015/node_modules/codemirror/addon/search/searchcursor.js","codemirror/addon/selection/active-line":"/Users/samsuanchen/ksana2015/node_modules/codemirror/addon/selection/active-line.js","react":"react","react-dom":"react-dom"}],"/Users/samsuanchen/ksana2015/node_modules/ksana-codemirror/src/index.js":[function(require,module,exports){
 var serialization=require("./serialization");
 module.exports={
 	serialize:serialization.serialize
@@ -10725,7 +11511,7 @@ module.exports={
 	,textMarker2json:require("./markups").textMarker2json
 	,json2textMarker:require("./markups").json2textMarker
 };
-},{"./codemirror-react":"C:\\ksana2015\\node_modules\\ksana-codemirror\\src\\codemirror-react.js","./markups":"C:\\ksana2015\\node_modules\\ksana-codemirror\\src\\markups.js","./milestones":"C:\\ksana2015\\node_modules\\ksana-codemirror\\src\\milestones.js","./selection":"C:\\ksana2015\\node_modules\\ksana-codemirror\\src\\selection.js","./serialization":"C:\\ksana2015\\node_modules\\ksana-codemirror\\src\\serialization.js","codemirror":"C:\\ksana2015\\node_modules\\codemirror\\lib\\codemirror.js"}],"C:\\ksana2015\\node_modules\\ksana-codemirror\\src\\ire-hint.js":[function(require,module,exports){
+},{"./codemirror-react":"/Users/samsuanchen/ksana2015/node_modules/ksana-codemirror/src/codemirror-react.js","./markups":"/Users/samsuanchen/ksana2015/node_modules/ksana-codemirror/src/markups.js","./milestones":"/Users/samsuanchen/ksana2015/node_modules/ksana-codemirror/src/milestones.js","./selection":"/Users/samsuanchen/ksana2015/node_modules/ksana-codemirror/src/selection.js","./serialization":"/Users/samsuanchen/ksana2015/node_modules/ksana-codemirror/src/serialization.js","codemirror":"/Users/samsuanchen/ksana2015/node_modules/codemirror/lib/codemirror.js"}],"/Users/samsuanchen/ksana2015/node_modules/ksana-codemirror/src/ire-hint.js":[function(require,module,exports){
 // CodeMirror, copyright (c) by Marijn Haverbeke and others
 // Distributed under an MIT license: http://codemirror.net/LICENSE
 //if (var IRE=require("ksana-ire");
@@ -10768,7 +11554,7 @@ module.exports={
   });
 });
 
-},{"codemirror":"C:\\ksana2015\\node_modules\\codemirror\\lib\\codemirror.js"}],"C:\\ksana2015\\node_modules\\ksana-codemirror\\src\\markups.js":[function(require,module,exports){
+},{"codemirror":"/Users/samsuanchen/ksana2015/node_modules/codemirror/lib/codemirror.js"}],"/Users/samsuanchen/ksana2015/node_modules/ksana-codemirror/src/markups.js":[function(require,module,exports){
 /**
 	put markups into CodeMirror
 	do not use markups after this call
@@ -10879,7 +11665,7 @@ var extractMarkups=function(doc) {
 
 module.exports={applyMarkups:applyMarkups, extractMarkups:extractMarkups,
 	json2textMarker:json2textMarker,textMarker2json:textMarker2json};
-},{}],"C:\\ksana2015\\node_modules\\ksana-codemirror\\src\\milestones.js":[function(require,module,exports){
+},{}],"/Users/samsuanchen/ksana2015/node_modules/ksana-codemirror/src/milestones.js":[function(require,module,exports){
 
 var findMilestone = function (array, obj, near) { 
   var low = 0,
@@ -10987,7 +11773,7 @@ var pack=function(r) {
 }
 module.exports={lineNumberFormatter:lineNumberFormatter,findMilestone:findMilestone,
 	abs2milestone:abs2milestone,buildMilestone:buildMilestone,unpack:unpack,pack:pack};
-},{}],"C:\\ksana2015\\node_modules\\ksana-codemirror\\src\\selection.js":[function(require,module,exports){
+},{}],"/Users/samsuanchen/ksana2015/node_modules/ksana-codemirror/src/selection.js":[function(require,module,exports){
 var findRange=function(sels,sel) {
 	for (var i=0;i<sels.length;i++) {
 		var s=sels[i];
@@ -11054,7 +11840,7 @@ var	getCharAtCursor = function(doc) {
 
 
 module.exports={getSelections:getSelections,getCharAtCursor:getCharAtCursor};
-},{}],"C:\\ksana2015\\node_modules\\ksana-codemirror\\src\\serialization.js":[function(require,module,exports){
+},{}],"/Users/samsuanchen/ksana2015/node_modules/ksana-codemirror/src/serialization.js":[function(require,module,exports){
 
 var itemstojson=function(obj){ //json friendly to github diff
 	var out="";
@@ -11139,7 +11925,7 @@ var deserialize=function(buffer,filename) {
 
 
 module.exports={serialize:serialize,deserialize:deserialize};
-},{"./markups":"C:\\ksana2015\\node_modules\\ksana-codemirror\\src\\markups.js"}],"C:\\ksana2015\\node_modules\\ksana2015-webruntime\\downloader.js":[function(require,module,exports){
+},{"./markups":"/Users/samsuanchen/ksana2015/node_modules/ksana-codemirror/src/markups.js"}],"/Users/samsuanchen/ksana2015/node_modules/ksana2015-webruntime/downloader.js":[function(require,module,exports){
 
 var userCancel=false;
 var files=[];
@@ -11248,7 +12034,7 @@ var downloadingFile=function() {
 var downloader={startDownload:startDownload, downloadedByte:downloadedByte,
 	downloadingFile:downloadingFile, cancelDownload:cancelDownload,doneDownload:doneDownload};
 module.exports=downloader;
-},{"./mkdirp":"C:\\ksana2015\\node_modules\\ksana2015-webruntime\\mkdirp.js","fs":false,"http":false,"path":false}],"C:\\ksana2015\\node_modules\\ksana2015-webruntime\\html5fs.js":[function(require,module,exports){
+},{"./mkdirp":"/Users/samsuanchen/ksana2015/node_modules/ksana2015-webruntime/mkdirp.js","fs":false,"http":false,"path":false}],"/Users/samsuanchen/ksana2015/node_modules/ksana2015-webruntime/html5fs.js":[function(require,module,exports){
 /* emulate filesystem on html5 browser */
 var get_head=function(url,field,cb){
 	var xhr = new XMLHttpRequest();
@@ -11503,7 +12289,7 @@ var API={
 }
 module.exports=API;
 
-},{}],"C:\\ksana2015\\node_modules\\ksana2015-webruntime\\ksanagap.js":[function(require,module,exports){
+},{}],"/Users/samsuanchen/ksana2015/node_modules/ksana2015-webruntime/ksanagap.js":[function(require,module,exports){
 var appname="installer";
 if (typeof ksana=="undefined") {
 	window.ksana={platform:"chrome"};
@@ -11618,7 +12404,7 @@ var ksanagap={
 	boot:boot
 }
 module.exports=ksanagap;
-},{"./downloader":"C:\\ksana2015\\node_modules\\ksana2015-webruntime\\downloader.js","fs":false,"path":false}],"C:\\ksana2015\\node_modules\\ksana2015-webruntime\\livereload.js":[function(require,module,exports){
+},{"./downloader":"/Users/samsuanchen/ksana2015/node_modules/ksana2015-webruntime/downloader.js","fs":false,"path":false}],"/Users/samsuanchen/ksana2015/node_modules/ksana2015-webruntime/livereload.js":[function(require,module,exports){
 var started=false;
 var timer=null;
 var bundledate=null;
@@ -11643,7 +12429,7 @@ var livereload=function() {
 }
 
 module.exports=livereload;
-},{"./html5fs":"C:\\ksana2015\\node_modules\\ksana2015-webruntime\\html5fs.js"}],"C:\\ksana2015\\node_modules\\ksana2015-webruntime\\mkdirp.js":[function(require,module,exports){
+},{"./html5fs":"/Users/samsuanchen/ksana2015/node_modules/ksana2015-webruntime/html5fs.js"}],"/Users/samsuanchen/ksana2015/node_modules/ksana2015-webruntime/mkdirp.js":[function(require,module,exports){
 function mkdirP (p, mode, f, made) {
      var path = nodeRequire('path');
      var fs = nodeRequire('fs');
@@ -11729,5 +12515,5 @@ mkdirP.sync = function sync (p, mode, made) {
 
 module.exports = mkdirP.mkdirp = mkdirP.mkdirP = mkdirP;
 
-},{}]},{},["C:\\ksana2015\\kmf-editor\\index.js"])
+},{}]},{},["/Users/samsuanchen/ksana2015/kmf-editor/index.js"])
 //# sourceMappingURL=bundle.js.map
