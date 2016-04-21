@@ -11,4 +11,7 @@ body {margin:0px;}
 .book {background:#ffc;border-radius:10pt;color:black;}
 .bookname {background:#fcc;border-radius:10pt;color:black;}
 .bookcode {background:#cfc;border-radius:10pt;color:black;}
+
 .verse {background:#ccf;border-radius:10pt;color:black;}
+.verse:after {content:" ";background:clear;}
+.verse:before {content:" ";background:clear;}
